@@ -1,0 +1,1066 @@
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 1
+GUIA DE CONTEÚDO,
+ARQUITETURA E LAYOUT DO SITE
+Documento executivo para design, desenvolvimento, SEO, conteúdo e
+implantação digital
+TRITIVA | INGREDIENTES DERIVADOS DO TRIGO PARA A INDÚSTRIA
+Versão 1.0 • 30 de julho de 2026
+USO INTERNO — TRITIVA / EQUIPE DE DESIGN / DESENVOLVIMENTO
+
+-- 1 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 2
+1. Como utilizar este documento
+Este material reúne a estratégia, a estrutura do site e o texto-base que o
+desenvolvedor deverá implementar.
+DECISÃO DE ESCOPO
+O site deve posicionar a Tritiva como uma empresa brasileira de ingredientes derivados do trigo. A marca será
+independente, técnica e B2B. A2E não aparece na narrativa pública. Petra e Tritiva podem atuar de forma integrada, mas
+o site da Tritiva não deve parecer uma extensão comercial da Petra.
+Entregáveis esperados do desenvolvedor
+• Site institucional responsivo, com prioridade para desktop e excelente experiência mobile.
+• CMS que permita editar páginas, produtos, aplicações, artigos, formulários e metadados sem depender de programação.
+• Integração dos formulários com CRM e notificações por e-mail.
+• Configuração de SEO técnico, mensuração, consentimento de cookies e páginas legais.
+• Ambiente de homologação antes da publicação e documentação de acesso, backups e manutenção.
+Legenda de conteúdo
+Status Significado
+PUBLICAR AGORA Texto seguro para a fase institucional e de estruturação comercial.
+PUBLICAR APÓS VALIDAÇÃO Conteúdo condicionado ao início comprovado da produção, à ficha técnica,
+às licenças ou à disponibilidade comercial.
+PREENCHER Informação que depende de CNPJ, endereço, contatos, capacidade,
+certificação ou decisão operacional.
+NOTA INTERNA Orientação para design, desenvolvimento, marketing ou jurídico; não deve
+aparecer no site.
+NOTA DE RESPONSABILIDADE
+Este documento organiza comunicação e arquitetura digital. Ele não substitui revisão jurídica dos contratos, licenças,
+alegações técnicas, rotulagem, fichas de segurança, políticas de privacidade ou responsabilidades sobre fabricação.
+
+-- 2 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 3
+2. Direção estratégica da marca
+A Tritiva deve nascer como plataforma industrial de ingredientes, e não como
+marca de farinha de varejo ou corretora de grãos.
+Propósito
+TEXTO INSTITUCIONAL
+Transformar o trigo em autonomia para a indústria brasileira.
+Missão
+TEXTO INSTITUCIONAL
+Desenvolver e fornecer ingredientes derivados do trigo com padrão técnico, regularidade e inteligência comercial,
+agregando valor à cadeia produtiva e ampliando a autonomia da indústria brasileira.
+Visão
+TEXTO INSTITUCIONAL
+Ser reconhecida como referência brasileira em ingredientes derivados do trigo e como uma plataforma industrial relevante
+para o mercado sul-americano.
+Valores
+Valor Comportamento esperado
+Integridade acima da
+conveniência
+Decisões transparentes, sustentáveis e juridicamente responsáveis, mesmo
+quando o caminho correto exige mais trabalho.
+Qualidade comprovada Especificações, análises, rastreabilidade e consistência entre lotes no lugar
+de promessas vagas.
+Compromisso com a entrega Prazo, padrão, previsibilidade e resposta rápida são obrigações industriais.
+Senso de dono Cuidado com recursos, clientes, fornecedores e reputação como
+responsáveis diretos pelo resultado.
+Inovação com aplicação
+prática
+Tecnologia deve melhorar produto, processo, eficiência ou resultado do
+cliente.
+Relações de longo prazo Construção de negócios sólidos com clientes, colaboradores, fornecedores e
+parceiros.
+
+-- 3 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 4
+3. Posicionamento e arquitetura empresarial
+A comunicação externa precisa refletir uma operação economicamente real e
+separar com clareza a Tritiva da industrializadora contratada.
+Posicionamento
+DECLARAÇÃO DE POSICIONAMENTO
+Para indústrias que dependem de ingredientes derivados do trigo com padrão técnico e regularidade, a Tritiva é uma
+empresa brasileira de soluções B2B em amido de trigo, glúten vital e farinhas, combinando conhecimento da cadeia,
+gestão de qualidade, proximidade comercial e planejamento de fornecimento.
+Papel de cada empresa — orientação interna
+Parte Papel recomendado
+Petra Agronegócio Originação, importação, suprimento e inteligência de mercado do trigo. A
+relação comercial com a Tritiva deve ser contratada, faturada e contabilizada.
+Tritiva Titular da marca, do portfólio, da estratégia de produto, do relacionamento
+comercial, do marketing e da receita de venda dos derivados.
+Industrializadora contratada Executa a fabricação conforme contrato, especificações, licenças,
+responsabilidades e remuneração definidas. Não integra a narrativa
+institucional da Tritiva.
+Thiago CEO da Tritiva e líder executivo do projeto de derivados. No site, aparece
+apenas como CEO da Tritiva.
+O que pode aparecer no site
+• “A Tritiva nasce da experiência de empreendedores com atuação na originação, comercialização, logística e transformação
+do trigo.”
+• “Os produtos Tritiva são desenvolvidos para aplicações industriais e fornecidos conforme especificações técnicas.”
+• “A Tritiva coordena o desenvolvimento, o planejamento de fornecimento, a qualidade e a comercialização de seu portfólio.”
+O que não deve aparecer
+EXPRESSÕES PROIBIDAS OU PREMATURAS
+Não usar: “A A2E agora é Tritiva”, “antiga fábrica da A2E”, “Tritiva assume a operação da A2E”, “nossa fábrica” quando a
+planta não pertencer à Tritiva, “primeira e única indústria nacional” sem prova documental, “100% nacional” sem definição
+técnica ou “substituição garantida das importações”.
+Regra para a relação com Petra
+A Tritiva pode aproveitar a experiência da cadeia de trigo acumulada pelos seus empreendedores, mas não deve usar o
+logotipo da Petra no cabeçalho, rodapé ou assinatura principal. Uma eventual menção à Petra deve ser deliberada, secundária
+e coerente com os contratos e a estrutura societária.
+
+-- 4 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 5
+4. Objetivos do site e públicos prioritários
+O site deve gerar confiança técnica e oportunidades comerciais — não volume de
+visitantes sem qualificação.
+Objetivos de negócio
+1. Apresentar a Tritiva como empresa séria, industrial, técnica e preparada para relações B2B.
+2. Gerar solicitações de atendimento, amostras, homologação e contato técnico.
+3. Apoiar reuniões comerciais com informações claras sobre empresa, produtos, aplicações e qualidade.
+4. Construir autoridade em ingredientes derivados do trigo e reduzir dependência de apresentações informais.
+5. Criar uma base digital escalável para expansão do portfólio, exportação e conteúdos técnicos.
+Públicos prioritários
+Persona Informação que precisa encontrar
+Compras e suprimentos Busca preço, disponibilidade, prazo, condição comercial, previsibilidade e
+capacidade de entrega.
+P&D e aplicação Busca especificação, desempenho, comportamento na formulação, amostra
+e suporte técnico.
+Qualidade e regulatório Busca rastreabilidade, laudos, análises, alergênicos, microbiologia, origem e
+conformidade.
+Direção industrial Busca segurança de abastecimento, produtividade, alternativas nacionais e
+parceria de longo prazo.
+Moinhos e indústrias
+alimentícias
+Busca glúten vital, amido, farinhas e soluções adequadas ao processo.
+Fornecedores e parceiros Busca critérios, contato de compras, governança e oportunidades de
+colaboração.
+Conversões principais
+• Solicitar atendimento comercial.
+• Solicitar amostra ou iniciar homologação — somente após processo interno estar pronto.
+• Falar com qualidade ou equipe técnica.
+• Cadastrar-se para receber novidades do projeto.
+• Baixar ficha técnica — somente em área controlada e após validação do documento.
+
+-- 5 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 6
+5. Mapa do site
+Arquitetura recomendada para o lançamento e para a evolução comercial.
+Página Função
+Início Posicionamento, portfólio, diferenciais, aplicações, qualidade, conteúdo e
+conversão.
+A Tritiva Quem somos, propósito, missão, visão, valores, trajetória e liderança.
+Produtos Visão geral do portfólio.
+Amido de trigo Página de produto com benefícios, aplicações, especificações e contato.
+Glúten vital de trigo Página de produto com benefícios, aplicações, especificações e contato.
+Farinhas de trigo Página de produto com linhas por aplicação e contato.
+Aplicações Hub por segmento industrial.
+Qualidade Sistema de qualidade, rastreabilidade, documentação e homologação.
+Responsabilidade Compromissos ambientais, sociais e de governança baseados em dados.
+Insights Artigos técnicos, mercado, aplicações e notícias institucionais.
+Contato Formulários, departamentos e dados empresariais.
+Privacidade e cookies Páginas legais, preferências e transparência de dados.
+RECOMENDAÇÃO OBJETIVA
+Não criar uma página “Nossa fábrica” no lançamento. Enquanto a planta industrial não for formalmente da Tritiva, a página
+deve ser “Qualidade e produção” ou apenas “Qualidade”, com linguagem compatível com fabricação contratada.
+Menu principal
+DESKTOP
+A Tritiva | Produtos | Aplicações | Qualidade | Insights | Contato
+Botão destacado: Falar com nossa equipe
+MOBILE
+Menu compacto com botão fixo “Contato” ou “Falar com a equipe”. Evitar mais de dois níveis de navegação.
+
+-- 6 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 7
+6. Direção visual e sistema de interface
+O design deve parecer indústria de ingredientes de grande porte, não
+agronegócio genérico.
+Paleta principal
+Cor Aplicação
+Verde institucional — #0B3D2E Cor predominante em títulos, botões, rodapé e fundos institucionais.
+Dourado trigo — #D89B1E Cor de destaque, ícones, linhas, detalhes e chamadas secundárias.
+Branco — #FFFFFF Base para leveza, legibilidade e percepção técnica.
+Cinza claro — #F3F4F4 Fundos de seções, tabelas e conteúdos técnicos.
+Grafite — #252A28 Texto corrido e elementos neutros.
+Tipografia
+Elemento Diretriz
+Títulos Montserrat Semibold/Bold ou equivalente geométrica. Caso a fonte seja
+licenciada, hospedar localmente para performance e LGPD.
+Texto corrido Inter, Source Sans 3 ou outra sans-serif de alta legibilidade.
+Dados técnicos Inter Medium/Semibold, com hierarquia rigorosa e tabelas responsivas.
+Logotipo Usar apenas o arquivo vetorial final. Não reconstruir o nome com fonte
+comum.
+Direção fotográfica
+• Trigo, laboratório, análises, processos, ensaios, embalagem industrial, logística e aplicação real dos ingredientes.
+• Planos limpos, luz natural ou técnica, ambientes organizados e escala industrial.
+• Pessoas reais em atividade, com EPIs adequados e sem encenação genérica.
+• Evitar banco de imagens com lavoura ao pôr do sol, mãos segurando grãos, fazendeiro sorrindo ou estética de cooperativa.
+Componentes
+• Botão primário verde com texto branco; hover em verde mais escuro.
+• Botão secundário contornado em verde; versão clara sobre fundo escuro.
+• Cards com cantos discretos — no máximo 8 px — e sombra mínima.
+• Ícones lineares simples, consistentes e preferencialmente exclusivos.
+• Tabelas técnicas com cabeçalho fixo no desktop e cartões empilhados no mobile.
+• Animações discretas; não usar parallax pesado, vídeos automáticos com áudio ou efeitos que comprometam desempenho.
+
+-- 7 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 8
+7. Página inicial — conteúdo e layout
+Versão recomendada para o lançamento institucional. Ajustes pós-início
+comercial estão sinalizados.
+CABEÇALHO
+Logo, menu, idioma futuro e botão “Falar com nossa equipe”.
+HERO
+Mensagem principal, texto de apoio, dois CTAs e imagem industrial real ou composição abstrata do trigo.
+POR QUE A TRITIVA
+Problema de mercado + proposta de valor.
+PRODUTOS
+Três cards: amido, glúten vital e farinhas.
+DIFERENCIAIS
+Padrão técnico, previsibilidade, proximidade e conhecimento da cadeia.
+APLICAÇÕES
+Cards por segmento industrial.
+QUALIDADE
+Rastreabilidade, documentação e consistência.
+CONTEÚDO
+Três artigos ou notícias mais recentes.
+CTA FINAL
+Formulário curto ou botão para contato comercial.
+RODAPÉ
+Contatos, menu, CNPJ, privacidade e redes.
+7.1 Hero — PUBLICAR AGORA
+TÍTULO H1
+Ingredientes derivados do trigo para uma indústria mais próxima e previsível.
+TEXTO DE APOIO
+A Tritiva é uma empresa brasileira dedicada ao desenvolvimento e fornecimento de amido de trigo, glúten vital e farinhas
+para aplicações industriais, combinando conhecimento da cadeia, padrão técnico e proximidade comercial.
+CHAMADAS
+Botão primário: Conheça nossas soluções
+Botão secundário: Fale com nossa equipe
+
+-- 8 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 9
+NOTA DE LAYOUT
+Hero em duas colunas. Texto à esquerda; imagem ou vídeo silencioso à direita. Em mobile, priorizar texto e CTA antes da
+imagem. Evitar números de capacidade ou alegações de pioneirismo.
+7.2 Bloco “Por que existimos”
+TÍTULO
+Transformar o trigo é agregar valor à indústria brasileira.
+TEXTO
+O trigo pode originar ingredientes estratégicos para diferentes processos industriais. A Tritiva nasce para ampliar essa
+transformação no Brasil, aproximando conhecimento técnico, planejamento de fornecimento e mercado. Nosso
+compromisso é construir relações de longo prazo e entregar produtos com especificações claras, rastreabilidade e
+atendimento especializado.
+7.3 Produtos
+ABERTURA
+Soluções desenvolvidas para diferentes demandas industriais.
+Card Texto
+Amido de trigo Ingrediente para aplicações que exigem funcionalidade, consistência e padronização.
+CTA: Conhecer o produto.
+Glúten vital de trigo Ingrediente proteico voltado ao desempenho e à padronização de formulações. CTA:
+Conhecer o produto.
+Farinhas de trigo Farinhas especificadas conforme aplicação, processo e resultado esperado. CTA:
+Conhecer as linhas.
+
+-- 9 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 10
+7. Página inicial — continuação
+7.4 Diferenciais
+TÍTULO
+Mais do que ingredientes: previsibilidade para o processo industrial.
+Diferencial Descrição
+Conhecimento da cadeia Experiência em originação, mercado, logística e comportamento do trigo.
+Padrão técnico Produtos desenvolvidos e fornecidos conforme especificações, análises e critérios de
+qualidade.
+Planejamento de fornecimento Integração entre demanda comercial, matéria-prima, produção e logística.
+Proximidade Atendimento direto para compras, qualidade, P&D e aplicação.
+Flexibilidade responsável Soluções construídas dentro da capacidade técnica e operacional real.
+Visão de longo prazo Relacionamentos sustentados por transparência, desempenho e entrega.
+7.5 Aplicações
+TÍTULO
+Ingredientes que participam de diferentes processos e formulações.
+• Panificação industrial
+• Moinhos e padronização de farinhas
+• Massas alimentícias
+• Biscoitos e produtos assados
+• Alimentos processados
+• Aplicações industriais a validar
+REGRA TÉCNICA
+Publicar cada aplicação somente depois de confirmar a adequação do produto e a existência de suporte técnico. Não
+afirmar ganho de rendimento, textura, shelf life ou redução de custo sem teste documentado.
+7.6 Qualidade
+TÍTULO
+Qualidade construída em cada etapa.
+TEXTO
+A Tritiva estrutura sua atuação com critérios de especificação, controle de matérias-primas, rastreabilidade, análise por
+lote e documentação técnica. Nosso objetivo é fornecer informações confiáveis para que cada cliente possa avaliar,
+homologar e utilizar os produtos com segurança.
+
+-- 10 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 11
+CTA
+Conheça nossa abordagem de qualidade
+7.7 CTA final
+TÍTULO
+Vamos conversar sobre a necessidade da sua indústria?
+TEXTO
+Fale com nossa equipe para apresentar sua aplicação, especificação, volume e planejamento de fornecimento.
+BOTÕES
+Falar com o comercial
+Falar com qualidade
+7.8 Alteração após início comercial comprovado
+TROCA DE MENSAGEM
+Depois de produto disponível, documentação validada e processo de amostras funcionando, o hero poderá usar: “Amido
+de trigo, glúten vital e farinhas produzidos no Brasil para a indústria.” O CTA poderá mudar para “Solicitar amostra e
+homologação”.
+
+-- 11 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 12
+8. Página “A Tritiva”
+A página deve construir credibilidade sem depender da história da A2E e sem
+reduzir a empresa a uma marca comercial.
+HERO INTERNO
+Título, texto institucional e fotografia de equipe/processo.
+QUEM SOMOS
+Narrativa de origem e competência.
+PROPÓSITO
+Propósito, missão e visão.
+VALORES
+Seis cards de comportamento.
+LIDERANÇA
+Perfil do CEO e equipe-chave.
+CTA
+Contato institucional ou comercial.
+8.1 Título e introdução
+H1
+Uma empresa brasileira dedicada a transformar o trigo em soluções para a indústria.
+TEXTO
+A Tritiva é uma empresa de ingredientes derivados do trigo, com atuação em amido de trigo, glúten vital e farinhas para
+aplicações industriais. Nascemos para agregar valor à cadeia tritícola e ampliar a oferta brasileira de ingredientes
+estratégicos, combinando conhecimento de mercado, gestão de qualidade, planejamento de fornecimento e
+relacionamento próximo com cada cliente.
+8.2 Nossa origem
+TEXTO
+A Tritiva nasce da experiência de empreendedores que atuam há anos na originação, comercialização, logística e
+transformação do trigo. Esse conhecimento da cadeia permite compreender não apenas o produto, mas também os
+desafios de suprimento, qualidade, crédito, transporte e continuidade operacional enfrentados pela indústria.
+NOTA INTERNA
+Não citar A2E. A menção nominal à Petra é opcional. A recomendação inicial é preservar a independência da marca e
+utilizar a expressão “experiência de empreendedores na cadeia do trigo”.
+
+-- 12 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 13
+8.3 Liderança
+THIAGO CAPARROZ — CEO
+Thiago lidera a estratégia, o desenvolvimento da operação, o posicionamento comercial e a construção do portfólio da
+Tritiva. Sua atuação conecta conhecimento da cadeia do trigo, visão empresarial, desenvolvimento de mercado e foco em
+execução.
+8.4 Propósito, missão, visão e valores
+Utilizar os textos integrais da seção 2 deste documento. No site, os valores devem aparecer como cards curtos; ao clicar,
+expandir a explicação completa.
+
+-- 13 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 14
+9. Página “Produtos”
+O portfólio precisa ser organizado por função e aplicação, não apenas por nome
+de commodity.
+9.1 Hero
+H1
+Ingredientes derivados do trigo desenvolvidos para aplicações industriais.
+TEXTO
+A Tritiva atua com amido de trigo, glúten vital e farinhas, oferecendo soluções orientadas por especificação, consistência,
+rastreabilidade e planejamento de fornecimento.
+9.2 Cards de produtos
+Produto Conteúdo do card
+Amido de trigo Imagem técnica, resumo, aplicações validadas e botão “Ver detalhes”.
+Glúten vital de trigo Imagem técnica, resumo, aplicações validadas e botão “Ver detalhes”.
+Farinhas de trigo Imagem técnica, linhas por aplicação e botão “Conhecer as farinhas”.
+9.3 Como escolher
+TÍTULO
+A especificação correta começa pela aplicação.
+TEXTO
+Parâmetros de produto devem ser definidos considerando formulação, processo, equipamentos, desempenho esperado,
+armazenamento e requisitos regulatórios. Nossa equipe comercial e técnica trabalhará com cada cliente para compreender
+a necessidade e indicar a solução disponível mais adequada.
+9.4 Download e documentos
+CONTROLE DE DOCUMENTOS
+Fichas técnicas e certificados devem possuir código, revisão, data, responsável e política de atualização. Recomenda-se
+disponibilizar fichas técnicas mediante formulário ou área de documentos, nunca publicar arquivos sem controle de versão.
+
+-- 14 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 15
+10. Página de produto — Amido de trigo
+Texto-base sujeito à validação das especificações e dos graus comerciais.
+HERO DO PRODUTO
+Nome, proposta de valor, imagem real e CTA técnico.
+VISÃO GERAL
+Descrição objetiva e benefícios comprováveis.
+APLICAÇÕES
+Segmentos validados.
+ESPECIFICAÇÕES
+Tabela ou botão para ficha técnica.
+QUALIDADE E EMBALAGEM
+Lote, documentação, acondicionamento e armazenagem.
+CTA
+Solicitar atendimento, amostra ou homologação.
+H1
+Amido de trigo
+SUBTÍTULO
+Consistência e funcionalidade para aplicações industriais.
+DESCRIÇÃO
+O amido de trigo Tritiva é desenvolvido para aplicações que demandam padronização, desempenho funcional e controle
+técnico. O fornecimento será acompanhado de especificações, rastreabilidade e documentação de qualidade adequadas
+ao produto e ao mercado atendido.
+Benefícios que podem ser comunicados agora
+• Fornecimento orientado por especificação.
+• Atendimento B2B e suporte à homologação.
+• Planejamento comercial e logístico.
+• Rastreabilidade e documentação por lote, quando implementadas.
+Informações a preencher antes da publicação comercial
+Campo Definição necessária
+Tipo de amido Nativo, modificado, grau alimentício, industrial ou outra classificação.
+Parâmetros Umidade, pH, cinzas, proteína residual, granulometria, viscosidade e
+microbiologia, conforme produto.
+Aplicações Somente as comprovadas por teste ou literatura técnica aplicável ao produto.
+
+-- 15 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 16
+Campo Definição necessária
+Embalagem Peso líquido, material, paletização, big bag ou saco.
+Armazenagem Condição, prazo de validade e controle de umidade.
+Documentos Ficha técnica, laudo, alergênicos, OGM, origem e demais declarações.
+NÃO PUBLICAR SEM VALIDAÇÃO
+Não afirmar “substitui amido de milho”, “reduz custos”, “melhora textura” ou “aumenta rendimento” como promessa geral.
+O desempenho depende do grau do amido e da aplicação.
+
+-- 16 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 17
+11. Página de produto — Glúten vital de trigo
+O termo deve ser escrito corretamente: glúten vital de trigo.
+H1
+Glúten vital de trigo
+SUBTÍTULO
+Proteína funcional para desempenho e padronização de formulações.
+DESCRIÇÃO
+O glúten vital de trigo Tritiva é um ingrediente proteico destinado a formulações que demandam estrutura, elasticidade e
+desempenho funcional. A indicação deve considerar a aplicação, o processo e a especificação de cada cliente.
+Aplicações potenciais — publicar apenas após validação
+• Panificação industrial e fortificação de farinhas.
+• Massas, produtos assados e formulações específicas.
+• Outras aplicações alimentícias ou industriais compatíveis com o produto.
+Informações a preencher
+Campo Definição necessária
+Proteína Método analítico, base seca ou base úmida e faixa garantida.
+Umidade e cinzas Limites e método de análise.
+Propriedades funcionais Elasticidade, absorção ou parâmetros internos comprovados.
+Microbiologia Limites de segurança e critérios de liberação.
+Alergênicos Declaração clara: contém trigo e glúten, conforme legislação aplicável.
+Embalagem e validade Formato, armazenamento e prazo após validação.
+ALEGAÇÃO DE NACIONALIDADE
+Antes de utilizar “primeiro”, “único”, “100% nacional” ou “substituto das importações”, reunir prova documental e delimitar
+exatamente produto, processo, data e território. A comunicação recomendada é “uma nova alternativa brasileira de
+fornecimento”.
+
+-- 17 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 18
+12. Página de produto — Farinhas de trigo
+A farinha deve reforçar o posicionamento industrial da Tritiva, sem competir
+visualmente com marcas de varejo.
+H1
+Farinhas de trigo para aplicações industriais
+SUBTÍTULO
+Especificação construída a partir do processo e do resultado esperado.
+DESCRIÇÃO
+A Tritiva trabalhará com farinhas destinadas a aplicações industriais específicas, considerando parâmetros como proteína,
+força, estabilidade, absorção, cor, granulometria e comportamento no processo.
+Arquitetura de linha recomendada
+Linha Descrição
+Panificação industrial Farinhas para processos de alta escala e requisitos definidos de
+fermentação, estrutura e estabilidade.
+Massas alimentícias Produtos orientados por cor, proteína, comportamento no processamento e
+desempenho final.
+Biscoitos e produtos assados Farinhas adequadas a aplicações que exigem controle de força, expansão,
+textura ou absorção.
+Pré-misturas e soluções
+especiais
+Produtos desenvolvidos conforme formulação, processo e viabilidade
+operacional.
+Outras aplicações Criar somente após validação técnica e comercial.
+DECISÃO DE MARCA
+Não criar embalagens de varejo, receitas domésticas ou linguagem de consumo familiar no site institucional. A Tritiva deve
+permanecer B2B, técnica e industrial.
+
+-- 18 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 19
+13. Página “Aplicações”
+Hub para organizar o conteúdo conforme o problema do cliente e melhorar SEO e
+conversão.
+H1
+Soluções orientadas pela aplicação industrial.
+TEXTO
+Cada processo possui requisitos próprios de matéria-prima, formulação, equipamentos e desempenho. A Tritiva organiza
+seu portfólio a partir dessas necessidades e trabalha com clientes em processos de avaliação e homologação.
+Cards iniciais
+Aplicação Mensagem do card
+Panificação industrial Glúten vital, farinhas e ingredientes compatíveis com estrutura, estabilidade e
+padronização.
+Moinhos e padronização Soluções para composição e adequação de farinhas conforme necessidade
+técnica.
+Massas alimentícias Farinhas e ingredientes avaliados conforme cor, proteína, processo e
+desempenho final.
+Biscoitos e assados Soluções orientadas por textura, processamento e especificação.
+Alimentos processados Amidos e ingredientes para aplicações validadas.
+Desenvolvimento conjunto Canal para projetos, testes, amostras e homologação.
+Template de página por aplicação
+6. Problema ou objetivo industrial da aplicação.
+7. Produtos Tritiva relacionados.
+8. Parâmetros relevantes para avaliação.
+9. Processo de amostra e homologação.
+10. Perguntas frequentes técnicas.
+11. CTA para equipe comercial ou técnica.
+
+-- 19 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 20
+14. Página “Qualidade”
+A página mais importante para sustentar credibilidade junto a P&D, qualidade e
+compras.
+H1
+Qualidade industrial exige controle, documentação e consistência.
+INTRODUÇÃO
+A Tritiva estrutura sua atuação com critérios de seleção de matérias-primas, definição de especificações, rastreabilidade,
+análise por lote e gestão documental. Nosso objetivo é fornecer informações confiáveis e um processo claro de avaliação,
+homologação e atendimento.
+Blocos recomendados
+Tema Conteúdo
+Especificação Cada produto deve possuir parâmetros definidos, métodos analíticos e
+critérios de liberação.
+Rastreabilidade Identificação da matéria-prima, produção, lote, armazenamento, transporte e
+cliente.
+Análises Plano analítico interno ou terceirizado, laboratório responsável e registros.
+Documentação Ficha técnica, certificado de análise, alergênicos, microbiologia, origem e
+demais declarações.
+Homologação Processo de amostra, testes, aprovação, cadastro e início do fornecimento.
+Tratamento de ocorrências Canal, prazo de resposta, investigação, ação corretiva e rastreamento.
+Recall Procedimento e responsabilidades definidos antes do fornecimento
+comercial.
+Seção “Produção”
+TEXTO SEGURO
+Os produtos do portfólio Tritiva são fabricados no Brasil sob processos industriais e critérios técnicos definidos para cada
+linha. A Tritiva coordena o desenvolvimento, o planejamento de fornecimento, a qualidade e a comercialização dos
+produtos.
+QUANDO USAR ESTE TEXTO
+Somente publicar se os contratos e a operação confirmarem que a Tritiva efetivamente coordena essas funções. Não citar
+o nome da industrializadora no site institucional. Certificações e licenças devem ser atribuídas ao titular correto.
+
+-- 20 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 21
+15. Página “Responsabilidade”
+Evitar uma página genérica de sustentabilidade antes de existirem indicadores e
+evidências.
+H1
+Responsabilidade construída com dados e decisões práticas.
+TEXTO DE ABERTURA
+A Tritiva entende que uma operação industrial responsável precisa equilibrar desempenho econômico, segurança, uso
+eficiente de recursos, relações éticas e desenvolvimento da cadeia produtiva. Nossos compromissos serão comunicados
+com base em metas, indicadores e resultados verificáveis.
+Conteúdos que podem ser publicados agora
+• Código de conduta e integridade.
+• Compromisso com segurança e conformidade.
+• Critérios de relacionamento com fornecedores.
+• Valorização da cadeia do trigo e desenvolvimento regional.
+• Canal de contato para temas de responsabilidade.
+Conteúdos condicionados a dados
+Tema Evidência exigida
+Água Consumo por tonelada, metas de redução, tratamento e reuso.
+Energia Matriz, consumo por tonelada e eficiência.
+Resíduos e subprodutos Destinação, reaproveitamento e percentual valorizado.
+Emissões Escopo, metodologia, base de cálculo e metas.
+Origem do trigo Critérios de fornecedor, rastreabilidade e territórios.
+Pessoas e segurança Indicadores de treinamento, acidentes e condições de trabalho.
+PROIBIÇÃO DE GREENWASHING
+Não usar “sustentável”, “baixo impacto”, “economia circular” ou “produção limpa” como adjetivos genéricos. Mostrar
+número, método, período e meta.
+
+-- 21 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 22
+16. Página “Insights” e estratégia de conteúdo
+A produção de conteúdo deve apoiar venda consultiva, SEO e relacionamento
+com compradores técnicos.
+Categorias
+• Mercado do trigo e ingredientes
+• Aplicações e tecnologia
+• Qualidade e homologação
+• Supply chain e produção nacional
+• Notícias da Tritiva
+Primeiros 12 temas
+12. O que é amido de trigo e onde ele pode ser aplicado?
+13. O que é glúten vital de trigo e qual sua função em formulações?
+14. Por que a consistência entre lotes importa para a indústria?
+15. Como funciona um processo de homologação de ingrediente?
+16. Proteína da farinha e glúten vital: conceitos diferentes.
+17. Quais parâmetros avaliar em uma farinha industrial?
+18. Rastreabilidade: da matéria-prima ao lote entregue.
+19. O custo invisível da imprevisibilidade de fornecimento.
+20. Como estruturar testes de aplicação com um novo ingrediente.
+21. Trigo além da farinha: caminhos de agregação de valor.
+22. Produção nacional e redução de complexidade logística.
+23. Como compras, qualidade e P&D podem avaliar um novo fornecedor.
+Template de artigo
+• Título claro e técnico.
+• Resumo executivo de 2 a 3 linhas.
+• Problema de mercado ou aplicação.
+• Explicação em linguagem acessível.
+• Pontos técnicos com fontes e revisão responsável.
+• Conclusão sem promessa exagerada.
+• CTA relacionado ao tema.
+GOVERNANÇA EDITORIAL
+Todo conteúdo técnico deve ter autor ou revisor identificado, data, revisão e referências. Marketing não deve inventar
+especificações ou aplicações.
+
+-- 22 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 23
+17. Página “Contato” e formulários
+O formulário deve qualificar sem criar atrito excessivo.
+H1
+Converse com a Tritiva.
+TEXTO
+Apresente sua necessidade, aplicação ou oportunidade. Nossa equipe direcionará o contato para a área responsável.
+Formulário principal
+Campo Regra
+Nome completo Obrigatório.
+Empresa Obrigatório.
+Cargo/área Compras, qualidade, P&D, diretoria, fornecedor, imprensa ou outro.
+E-mail corporativo Obrigatório; aceitar e-mail pessoal, mas sinalizar internamente.
+Telefone/WhatsApp Obrigatório para demanda comercial.
+Assunto Produto, amostra, homologação, qualidade, fornecedor, imprensa ou outro.
+Produto de interesse Amido, glúten vital, farinhas ou projeto.
+Volume estimado Faixas; não exigir precisão.
+Aplicação Campo de texto curto.
+Mensagem Descrição livre.
+Consentimento Texto LGPD e link para política de privacidade.
+E-mails por departamento
+PREENCHER
+comercial@tritiva.com.br
+qualidade@tritiva.com.br
+compras@tritiva.com.br
+financeiro@tritiva.com.br
+imprensa@tritiva.com.br
+contato@tritiva.com.br
+
+-- 23 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 24
+Resposta automática
+ASSUNTO
+Recebemos seu contato | Tritiva
+MENSAGEM
+Olá, [Nome]. Recebemos sua mensagem e ela foi direcionada para a área responsável. Nosso prazo inicial de retorno é de
+até [PREENCHER] dia(s) útil(eis). Em caso de informação complementar, responda a este e-mail. Equipe Tritiva.
+Roteamento
+• Comercial → CRM, responsável e SLA.
+• Qualidade → sistema de chamados ou caixa monitorada.
+• Fornecedor → compras/suprimentos.
+• Imprensa → comunicação/CEO.
+• Financeiro → caixa separada, sem encaminhamento para endereços de outras empresas.
+
+-- 24 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 25
+18. Cabeçalho, rodapé e elementos globais
+Detalhes que o desenvolvedor deve tratar como componentes reutilizáveis.
+Cabeçalho
+• Logo horizontal vetorial.
+• Menu principal com no máximo seis entradas visíveis.
+• Botão destacado “Falar com nossa equipe”.
+• Versão sticky discreta após rolagem.
+• Menu mobile acessível por teclado e com foco visível.
+• Não inserir logotipos da Petra ou da industrializadora.
+Rodapé
+ESTRUTURA
+Coluna 1: logo Tritiva + descritor “Ingredientes derivados do trigo para a indústria”.
+Coluna 2: links institucionais.
+Coluna 3: produtos e aplicações.
+Coluna 4: contatos e LinkedIn.
+Linha legal: razão social, CNPJ, endereço, Política de Privacidade, Cookies e Termos de Uso.
+Aviso de titularidade
+PREENCHER
+© 2026 Tritiva [razão social completa]. Todos os direitos reservados. CNPJ [XX.XXX.XXX/0001-XX].
+Banner de cookies
+• Opções equivalentes: Aceitar, Recusar não essenciais e Personalizar.
+• Não disparar tags de marketing antes do consentimento, quando aplicável.
+• Armazenar evidência da escolha e permitir revisão posterior.
+• Evitar banner coercitivo ou botão de recusa escondido.
+
+-- 25 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 26
+19. SEO, metadados e dados estruturados
+O SEO deve ser técnico e comercial, não uma lista artificial de palavras-chave.
+Termos estratégicos iniciais
+• ingredientes derivados do trigo
+• amido de trigo
+• glúten vital de trigo
+• farinha de trigo industrial
+• ingredientes para panificação industrial
+• fornecedor de glúten vital
+• fornecedor de amido de trigo
+• farinhas para aplicações industriais
+Metadados sugeridos
+Página/campo Sugestão
+Início — Title Tritiva | Amido de trigo, glúten vital e farinhas industriais
+Início — Description Ingredientes derivados do trigo para a indústria. Conheça as soluções da
+Tritiva em amido de trigo, glúten vital e farinhas.
+A Tritiva — Title A Tritiva | Ingredientes derivados do trigo
+Produtos — Title Produtos | Amido, glúten vital e farinhas | Tritiva
+Qualidade — Title Qualidade e rastreabilidade | Tritiva
+Contato — Title Contato comercial e técnico | Tritiva
+Requisitos técnicos
+• URLs curtas e permanentes: /produtos/amido-de-trigo, /produtos/gluten-vital-de-trigo etc.
+• Canonical, sitemap XML, robots.txt e redirects 301.
+• Open Graph e imagem de compartilhamento por página.
+• Schema Organization, Product, Article, BreadcrumbList e FAQ apenas quando o conteúdo estiver presente.
+• Texto alternativo descritivo em imagens relevantes; imagens decorativas com alt vazio.
+• Não indexar ambiente de homologação, busca interna, parâmetros ou documentos obsoletos.
+
+-- 26 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 27
+20. CRM, analytics e mensuração
+O site precisa informar quais empresas e demandas geram oportunidades reais.
+Eventos mínimos
+Evento Finalidade
+form_start Usuário iniciou um formulário.
+form_submit Envio concluído com tipo e produto de interesse.
+contact_click Clique em e-mail, telefone ou WhatsApp.
+cta_click Clique em CTA, identificado por página e posição.
+document_request Solicitação de ficha técnica ou documento.
+sample_request Solicitação de amostra, quando habilitada.
+article_engagement Leitura qualificada de conteúdo.
+language_change Mudança de idioma em futura versão internacional.
+Integração com CRM
+• Criar origem “Site Tritiva” e suborigem por página/campanha.
+• Registrar produto, aplicação, volume, cargo, empresa e consentimento.
+• Deduplicar contatos por e-mail e empresa.
+• Criar SLA e responsável por tipo de demanda.
+• Não compartilhar a base com A2E. Compartilhamento com Petra deve respeitar finalidade, contrato, governança e política
+de privacidade.
+Painel de gestão
+• Leads por origem e produto.
+• Empresas qualificadas.
+• Taxa de resposta dentro do SLA.
+• Solicitações de amostra e homologações iniciadas.
+• Oportunidades por aplicação.
+• Conteúdos que influenciam conversão.
+
+-- 27 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 28
+21. Requisitos técnicos, desempenho e
+acessibilidade
+O site deve ser leve, seguro e administrável; estética não compensa estrutura
+ruim.
+Plataforma
+• CMS confiável com controle de usuários e trilha de alterações.
+• Ambiente de produção e homologação separados.
+• Backup automático diário, política de retenção e teste de restauração.
+• Atualizações, monitoramento de uptime, SSL, firewall e proteção de formulários.
+• Hospedagem em conta controlada pela Tritiva, não por fornecedor ou outra empresa.
+Performance
+• Imagens em WebP/AVIF, dimensões adequadas e lazy loading.
+• Fontes locais ou otimizadas.
+• Vídeo apenas quando houver valor e com poster comprimido.
+• Evitar construtores excessivamente pesados e plugins redundantes.
+• Meta: Core Web Vitals em faixa adequada nos principais dispositivos.
+Acessibilidade
+• Contraste de cores suficiente.
+• Navegação completa por teclado.
+• Foco visível.
+• Rótulos associados aos campos de formulário.
+• Mensagens de erro claras.
+• Hierarquia correta de H1, H2 e H3.
+• Textos não dependerem exclusivamente de cor ou ícone.
+Responsividade
+• Breakpoints definidos pelo conteúdo, não por modelos específicos de aparelho.
+• Tabelas técnicas responsivas.
+• CTAs com área de toque adequada.
+• Sem textos embutidos em imagens.
+• Testar Safari iOS, Chrome Android, Chrome, Edge e Firefox desktop.
+
+-- 28 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 29
+22. Governança de conteúdo e proteção de
+posicionamento
+A disciplina editorial será tão importante quanto o design.
+Matriz de aprovação
+Conteúdo Aprovação mínima
+Conteúdo institucional CEO / liderança Tritiva.
+Produto e aplicação Responsável técnico e qualidade.
+Especificações e documentos Qualidade, regulatório e responsável legal pelo produto.
+Mercado e importações Comercial / inteligência, com fontes verificáveis.
+Alegações ambientais Responsável por indicadores e evidências.
+Páginas legais e contratos Jurídico da Tritiva/Petra, conforme tema.
+Publicação no CMS Marketing, após aprovação registrada.
+Frases recomendadas
+• “Uma nova alternativa brasileira de fornecimento.”
+• “Ingredientes derivados do trigo para aplicações industriais.”
+• “Fornecimento orientado por especificação e homologação.”
+• “Padrão técnico, regularidade e proximidade comercial.”
+• “Produzido no Brasil” apenas quando o lote e a operação sustentarem a afirmação.
+Frases que exigem prova ou devem ser evitadas
+LISTA CRÍTICA
+“Primeira”, “única”, “maior”, “melhor”, “100% nacional”, “sustentável”, “zero impacto”, “substitui importações”, “garante
+desempenho”, “reduz custos”, “nossa fábrica”, “tecnologia exclusiva” e qualquer certificação não emitida para a entidade
+ou produto correto.
+Uso do nome A2E
+REGRA PÚBLICA
+Não usar A2E no site, metadados, URLs, imagens, nomes de arquivos, depoimentos, releases ou assinatura de e-mail da
+Tritiva. Internamente, os contratos e registros devem identificar corretamente cada parte.
+
+-- 29 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 30
+23. Plano de imagens e produção audiovisual
+O site perderá credibilidade se depender apenas de imagens genéricas de banco.
+Lista mínima de captação
+• Retrato profissional de Thiago como CEO da Tritiva.
+• Equipe em reunião técnica e comercial — somente pessoas efetivamente ligadas à Tritiva ou autorizadas.
+• Trigo e matéria-prima em escala industrial.
+• Laboratório, coleta, análise, identificação de lotes e documentação.
+• Produto em pó, embalagem, paletização e expedição, após disponibilidade real.
+• Aplicações em ambiente de cliente ou laboratório, com autorização.
+• Fotografias arquitetônicas da estrutura somente com atribuição e direito de uso corretos.
+Arquivos exigidos
+• Logo vetorial SVG/PDF/EPS e versões positiva, negativa e monocromática.
+• Fotos horizontais 3:2 e 16:9; verticais 4:5; recortes para mobile.
+• Imagem de compartilhamento 1200 × 630 px.
+• Favicon e ícones 512 × 512 px.
+• Manual de direitos de uso e créditos.
+CUIDADO OPERACIONAL
+Não fotografar marca, uniforme, placas, documentos ou funcionários da industrializadora de forma que o público interprete
+a planta como propriedade da Tritiva. Quando houver uso de estrutura contratada, a imagem precisa ser autorizada e
+coerente com a comunicação.
+
+-- 30 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 31
+24. Plano de implantação
+Recomendação de execução em quatro sprints, com dependências claras.
+Sprint Escopo
+Sprint 1 — Estratégia e base Domínio, hospedagem, CMS, wireframes, identidade vetorial, arquitetura,
+acessos e páginas legais.
+Sprint 2 — Conteúdo
+institucional
+Início, A Tritiva, Produtos, Qualidade, Contato, perfis sociais e assinatura de
+e-mail.
+Sprint 3 — Conteúdo técnico Páginas individuais, aplicações, documentos, formulários de
+amostra/homologação e CRM.
+Sprint 4 — Autoridade e escala Insights, SEO, versão em inglês/espanhol, landing pages, mídia e automação
+comercial.
+Critérios para publicar a versão 1
+• Razão social, CNPJ, endereço e contatos definidos.
+• Domínio e contas em titularidade da Tritiva.
+• Logo vetorial final e manual de uso.
+• Textos institucionais aprovados.
+• Formulários testados de ponta a ponta.
+• Política de privacidade e consentimento implementados.
+• Site revisado em desktop e mobile.
+• Nenhuma referência pública à A2E.
+• Nenhuma alegação técnica ou comercial sem suporte.
+• Plano de manutenção, backup e responsabilidade definido.
+Critérios para habilitar “Solicitar amostra”
+• Produto disponível e lote rastreável.
+• Ficha técnica e documentação validadas.
+• Processo de envio e registro de amostras.
+• Critério de qualificação do cliente.
+• Responsável por acompanhamento e retorno.
+• Termos de uso e limites de aplicação definidos.
+
+-- 31 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 32
+25. Pendências para finalizar o site
+Informações que a Tritiva precisa entregar ao designer e ao desenvolvedor.
+Pendência Conteúdo necessário
+Dados societários Razão social, CNPJ, endereço, administradores e canais oficiais.
+Domínio Confirmação do domínio principal e variações defensivas.
+Contatos Telefones, e-mails por departamento e SLA.
+Portfólio Produtos que estarão realmente disponíveis no lançamento.
+Especificações Parâmetros, métodos, embalagem, validade e documentação.
+Aplicações Lista validada por produto.
+Produção Texto aprovado conforme contrato e responsabilidades reais.
+Qualidade Responsável, laboratório, processos, certificações e documentos.
+Imagem Ensaio fotográfico e direitos de uso.
+CRM Ferramenta, pipeline, campos, usuários e integrações.
+Idiomas Decisão sobre português, espanhol e inglês.
+Jurídico digital Privacidade, cookies, termos e uso de dados.
+ORDEM CORRETA
+Não esperar que o desenvolvedor “descubra” as informações durante a construção. O projeto deve começar com
+arquitetura e conteúdo aprovados, evoluir para design e terminar em desenvolvimento. Fazer design antes de resolver
+conteúdo cria retrabalho caro.
+
+-- 32 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 33
+26. Banco de mensagens e chamadas
+Textos curtos para botões, banners, redes e materiais integrados.
+Descritor institucional
+RECOMENDADO
+Ingredientes derivados do trigo para a indústria
+Chamadas de navegação
+• Conheça nossas soluções
+• Ver produtos
+• Conheça a Tritiva
+• Explorar aplicações
+• Entenda nossa qualidade
+• Falar com nossa equipe
+• Falar com o comercial
+• Falar com qualidade
+• Receber novidades
+Chamadas condicionadas à operação
+• Solicitar amostra
+• Iniciar homologação
+• Baixar ficha técnica
+• Consultar disponibilidade
+• Solicitar proposta
+Mensagens curtas
+OPÇÃO 1
+Trigo transformado em valor para a indústria.
+OPÇÃO 2
+Padrão técnico. Fornecimento próximo. Relações de longo prazo.
+OPÇÃO 3
+Uma nova alternativa brasileira em ingredientes derivados do trigo.
+OPÇÃO 4
+Conhecimento da cadeia, qualidade e proximidade comercial.
+USO DE SLOGAN
+O logotipo deve permanecer sem slogan. Essas mensagens funcionam como títulos de campanha ou apoio institucional,
+não como assinatura fixa da marca.
+
+-- 33 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 34
+27. Checklist final para o desenvolvedor
+A entrega só é concluída quando a experiência, os dados e a governança
+funcionam.
+Frente Critério de aceite
+Arquitetura Sitemap implementado; URLs limpas; navegação desktop/mobile.
+Conteúdo Textos deste documento aplicados e placeholders substituídos.
+Marca Logo vetorial, cores e tipografia conforme manual.
+Responsividade Testes reais em desktop, tablet e mobile.
+Formulários Validação, antispam, consentimento, CRM, e-mails e página de sucesso.
+SEO Titles, descriptions, headings, sitemap, robots, canonical, schema e redirects.
+Analytics Eventos, consent mode, painel e exclusão de tráfego interno.
+Segurança SSL, usuários, backups, atualizações, firewall e logs.
+Acessibilidade Contraste, teclado, foco, labels, alt text e mensagens de erro.
+Jurídico Privacidade, cookies, termos, CNPJ e titularidade corretos.
+Separação Nenhuma referência pública à A2E; ativos e contas digitais em nome da
+Tritiva.
+Homologação Aprovação final de conteúdo, design, mobile, formulários e performance.
+
+-- 34 of 35 --
+
+GUIA DE CONTEÚDO E LAYOUT DO SITE
+TRITIVA • Documento de trabalho para desenvolvimento digital • v1.0
+Página 35
+Responsáveis sugeridos
+Área Responsabilidade
+Direção e posicionamento Thiago / liderança Tritiva.
+Conteúdo e marketing Marketing Tritiva / Saludigital, conforme definição interna.
+Design Designer responsável pela identidade e interface.
+Desenvolvimento Fornecedor web com responsável técnico nomeado.
+Produto e qualidade Responsável técnico/qualidade da operação.
+Dados e CRM Comercial e administrador do CRM.
+Revisão legal digital Jurídico da Tritiva/Petra para páginas e alegações aplicáveis.
+DECISÃO FINAL
+A versão 1 do site deve ser menor e verdadeira. Um site institucional sólido com seis páginas bem executadas é superior a
+vinte páginas com aplicações, números e promessas que a operação ainda não consegue sustentar.
+FIM DO DOCUMENTO
+
+-- 35 of 35 --
+

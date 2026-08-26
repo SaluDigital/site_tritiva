@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato comercial e técnico | Tritiva</title>
+<meta name="description" content="Fale com a equipe Tritiva sobre produto, amostra, homologação, qualidade ou fornecimento.">
+<link rel="icon" href="assets/logo-tritiva.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-link"><img src="assets/logo-tritiva.webp" alt="Tritiva"></a>
+    <nav class="main-nav">
+      <a href="a-tritiva.html">A Tritiva</a>
+      <a href="produtos/index.html">Produtos</a>
+      <a href="aplicacoes.html">Aplicações</a>
+      <a href="qualidade.html">Qualidade</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="header-cta">
+      <a href="contato.html" class="btn btn-primary">Falar com nossa equipe</a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="container" style="padding-top:20px;"><p class="breadcrumb"><a href="index.html">Início</a> / Contato</p></div>
+<section class="hero" style="padding-bottom:40px;">
+  <div class="container">
+    <h1>Converse com a Tritiva.</h1>
+    <p class="lead">Apresente sua necessidade, aplicação ou oportunidade. Nossa equipe direcionará o contato para a área responsável.</p>
+  </div>
+</section>
+<section style="padding-top:0;">
+  <div class="container" style="max-width:760px;">
+    <form id="contact-form" novalidate>
+      <div class="field-row">
+        <div class="field">
+          <label for="nome">Nome completo *</label>
+          <input type="text" id="nome" name="nome" required>
+          <span class="error-msg">Campo obrigatório.</span>
+        </div>
+        <div class="field">
+          <label for="empresa">Empresa *</label>
+          <input type="text" id="empresa" name="empresa" required>
+          <span class="error-msg">Campo obrigatório.</span>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="cargo">Cargo/área</label>
+          <select id="cargo" name="cargo">
+            <option value="">Selecione</option>
+            <option>Compras</option>
+            <option>Qualidade</option>
+            <option>P&amp;D</option>
+            <option>Diretoria</option>
+            <option>Fornecedor</option>
+            <option>Imprensa</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="email">E-mail corporativo *</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-msg">Informe um e-mail válido.</span>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="telefone">Telefone/WhatsApp *</label>
+          <input type="tel" id="telefone" name="telefone" required>
+          <span class="error-msg">Campo obrigatório.</span>
+        </div>
+        <div class="field">
+          <label for="assunto">Assunto</label>
+          <select id="assunto" name="assunto">
+            <option value="">Selecione</option>
+            <option>Produto</option>
+            <option>Amostra</option>
+            <option>Homologação</option>
+            <option>Qualidade</option>
+            <option>Fornecedor</option>
+            <option>Imprensa</option>
+            <option>Outro</option>
+          </select>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="produto">Produto de interesse</label>
+          <select id="produto" name="produto">
+            <option value="">Selecione</option>
+            <option>Amido de trigo</option>
+            <option>Glúten vital de trigo</option>
+            <option>Farinhas de trigo</option>
+            <option>Projeto/Outro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="volume">Volume estimado</label>
+          <input type="text" id="volume" name="volume" placeholder="Faixa aproximada">
+        </div>
+      </div>
+      <div class="field">
+        <label for="aplicacao">Aplicação</label>
+        <input type="text" id="aplicacao" name="aplicacao">
+      </div>
+      <div class="field">
+        <label for="mensagem">Mensagem *</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <span class="error-msg">Campo obrigatório.</span>
+      </div>
+      <div class="field field-check">
+        <input type="checkbox" id="consentimento" name="consentimento" required>
+        <label for="consentimento">Autorizo o tratamento dos meus dados para contato pela Tritiva, conforme a Política de Privacidade (em elaboração). *</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <div class="form-msg" id="form-msg">Recebemos sua mensagem e ela foi direcionada para a área responsável. Nossa equipe entrará em contato em breve.</div>
+
+    <div class="contact-emails">
+      <div><strong>Comercial</strong>comercial@tritiva.com.br</div>
+      <div><strong>Qualidade</strong>qualidade@tritiva.com.br</div>
+      <div><strong>Compras</strong>compras@tritiva.com.br</div>
+      <div><strong>Financeiro</strong>financeiro@tritiva.com.br</div>
+      <div><strong>Imprensa</strong>imprensa@tritiva.com.br</div>
+      <div><strong>Geral</strong>contato@tritiva.com.br</div>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <img src="assets/logo-tritiva.webp" alt="Tritiva">
+        <p class="footer-desc">Ingredientes derivados do trigo para a indústria</p>
+      </div>
+      <div>
+        <h4>Institucional</h4>
+        <a href="a-tritiva.html">A Tritiva</a>
+        <a href="produtos/index.html">Produtos</a>
+        <a href="aplicacoes.html">Aplicações</a>
+        <a href="qualidade.html">Qualidade</a>
+        <a href="responsabilidade.html">Responsabilidade</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <div>
+        <h4>Produtos e aplicações</h4>
+        <a href="produtos/amido-de-trigo.html">Amido de trigo</a>
+        <a href="produtos/gluten-vital-de-trigo.html">Glúten vital de trigo</a>
+        <a href="produtos/farinhas-de-trigo.html">Farinhas de trigo</a>
+        <a href="aplicacoes.html">Aplicações</a>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <a href="mailto:comercial@tritiva.com.br">comercial@tritiva.com.br</a>
+        <a href="mailto:qualidade@tritiva.com.br">qualidade@tritiva.com.br</a>
+        <a href="mailto:contato@tritiva.com.br">contato@tritiva.com.br</a>
+        <span style="color:#a9bcb2">LinkedIn — a confirmar</span>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-legal">
+    <span>© 2026 Tritiva — razão social a confirmar. Todos os direitos reservados. CNPJ a confirmar.</span>
+    <span class="legal-links">
+      <span>Política de Privacidade (em elaboração)</span>
+      <span>Cookies (em elaboração)</span>
+      <span>Termos de Uso (em elaboração)</span>
+    </span>
+  </div>
+</footer>
+<div class="cookie-banner" id="cookie-banner">
+  <div class="cookie-inner">
+    <p>Utilizamos cookies para melhorar sua experiência. Você pode aceitar, recusar cookies não essenciais ou personalizar suas preferências. Nossa política de privacidade está em elaboração.</p>
+    <div class="cookie-actions">
+      <button class="btn btn-secondary" data-cookie-choice="personalizado">Personalizar</button>
+      <button class="btn btn-secondary" data-cookie-choice="recusado">Recusar não essenciais</button>
+      <button class="btn btn-primary" data-cookie-choice="aceito">Aceitar</button>
+    </div>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
