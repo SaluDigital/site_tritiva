@@ -30,28 +30,24 @@
   </div>
 </header>
 <div class="container" style="padding-top:20px;"><p class="breadcrumb"><a href="index.html">Início</a> / Contato</p></div>
-<section class="hero" style="padding-bottom:40px;">
-  <div class="container">
-    <h1>Converse com a Tritiva.</h1>
-    <p class="lead">Apresente sua necessidade, aplicação ou oportunidade. Nossa equipe direcionará o contato para a área responsável.</p>
-  </div>
-</section>
-<section style="padding-top:0;">
-  <div class="container" style="max-width:760px;">
+<section class="contact-page-section">
+  <div class="container contact-page-layout">
+    <div class="contact-page-heading">
+      <h1>Converse com a Tritiva</h1>
+      <p class="lead">Apresente sua necessidade, aplicação ou oportunidade. Nossa equipe direcionará o contato para a área responsável.</p>
+    </div>
     <form id="contact-form" novalidate>
-      <div class="field-row">
-        <div class="field">
-          <label for="nome">Nome completo *</label>
-          <input type="text" id="nome" name="nome" required>
-          <span class="error-msg">Campo obrigatório.</span>
-        </div>
+      <div class="field">
+        <label for="nome">Nome completo *</label>
+        <input type="text" id="nome" name="nome" required>
+        <span class="error-msg">Campo obrigatório.</span>
+      </div>
+      <div class="field-row field-row-3">
         <div class="field">
           <label for="empresa">Empresa *</label>
           <input type="text" id="empresa" name="empresa" required>
           <span class="error-msg">Campo obrigatório.</span>
         </div>
-      </div>
-      <div class="field-row">
         <div class="field">
           <label for="cargo">Cargo/área</label>
           <select id="cargo" name="cargo">
@@ -91,7 +87,7 @@
           </select>
         </div>
       </div>
-      <div class="field-row">
+      <div class="field-row field-row-3">
         <div class="field">
           <label for="produto">Produto de interesse</label>
           <select id="produto" name="produto">
@@ -106,14 +102,27 @@
           <label for="volume">Volume estimado</label>
           <input type="text" id="volume" name="volume" placeholder="Faixa aproximada">
         </div>
-      </div>
-      <div class="field">
-        <label for="aplicacao">Aplicação</label>
-        <input type="text" id="aplicacao" name="aplicacao">
+        <div class="field">
+          <label for="aplicacao">Aplicação</label>
+          <input type="text" id="aplicacao" name="aplicacao">
+        </div>
       </div>
       <div class="field">
         <label for="mensagem">Mensagem *</label>
         <textarea id="mensagem" name="mensagem" required></textarea>
+        <span class="error-msg">Campo obrigatório.</span>
+      </div>
+      <div class="field">
+        <label for="destino">Destino *</label>
+        <select id="destino" name="destino" required>
+          <option value="">Selecione</option>
+          <option value="comercial@tritiva.com.br">Comercial</option>
+          <option value="qualidade@tritiva.com.br">Qualidade</option>
+          <option value="compras@tritiva.com.br">Compras</option>
+          <option value="financeiro@tritiva.com.br">Financeiro</option>
+          <option value="imprensa@tritiva.com.br">Imprensa</option>
+          <option value="contato@tritiva.com.br">Geral</option>
+        </select>
         <span class="error-msg">Campo obrigatório.</span>
       </div>
       <div class="field field-check">
@@ -123,15 +132,6 @@
       <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
     <div class="form-msg" id="form-msg">Recebemos sua mensagem e ela foi direcionada para a área responsável. Nossa equipe entrará em contato em breve.</div>
-
-    <div class="contact-emails">
-      <div><strong>Comercial</strong>comercial@tritiva.com.br</div>
-      <div><strong>Qualidade</strong>qualidade@tritiva.com.br</div>
-      <div><strong>Compras</strong>compras@tritiva.com.br</div>
-      <div><strong>Financeiro</strong>financeiro@tritiva.com.br</div>
-      <div><strong>Imprensa</strong>imprensa@tritiva.com.br</div>
-      <div><strong>Geral</strong>contato@tritiva.com.br</div>
-    </div>
   </div>
 </section>
 <footer class="site-footer">

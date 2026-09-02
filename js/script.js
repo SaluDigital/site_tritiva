@@ -25,6 +25,22 @@ document.addEventListener('DOMContentLoaded', function(){
   // Contact form validation (no backend yet)
   var form = document.querySelector('#contact-form');
   if(form){
+    var phoneField = form.querySelector('#telefone');
+    if(phoneField){
+      phoneField.addEventListener('input', function(){
+        var digits = phoneField.value.replace(/\D/g, '').slice(0, 11);
+        if(digits.length > 10){
+          phoneField.value = digits.replace(/(\d{2})(\d{5})(\d{0,4})/, '($1) $2-$3').replace(/-$/, '');
+        } else if(digits.length > 6){
+          phoneField.value = digits.replace(/(\d{2})(\d{4})(\d{0,4})/, '($1) $2-$3').replace(/-$/, '');
+        } else if(digits.length > 2){
+          phoneField.value = digits.replace(/(\d{2})(\d{0,5})/, '($1) $2');
+        } else {
+          phoneField.value = digits.replace(/(\d{0,2})/, '($1').replace(/\($/, '');
+        }
+      });
+    }
+
     form.addEventListener('submit', function(e){
       e.preventDefault();
       var valid = true;
@@ -45,6 +61,21 @@ document.addEventListener('DOMContentLoaded', function(){
       }
       var msg = document.querySelector('#form-msg');
       if(valid){
+        var destino = form.querySelector('#destino');
+        var assunto = form.querySelector('#assunto');
+        var body = [];
+        form.querySelectorAll('input, select, textarea').forEach(function(field){
+          if(field.type === 'checkbox') return;
+          var label = form.querySelector('label[for="' + field.id + '"]');
+          var name = label ? label.textContent.replace(' *', '') : field.name;
+          var value = field.options ? field.options[field.selectedIndex].text : field.value;
+          if(field.id === 'destino' || !value || value === 'Selecione') return;
+          body.push(name + ': ' + value);
+        });
+        if(destino && destino.value){
+          var subject = assunto && assunto.value ? 'Contato Tritiva - ' + assunto.value : 'Contato Tritiva';
+          window.location.href = 'mailto:' + destino.value + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body.join('\n'));
+        }
         form.reset();
         if(msg) msg.classList.add('show');
         form.style.display = 'none';
