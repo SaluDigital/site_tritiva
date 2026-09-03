@@ -6,7 +6,7 @@
   --gray:#F3F4F4;
   --graphite:#252A28;
   --radius:8px;
-  --maxw:1200px;
+  --maxw:1280px;
   --section-title-size:clamp(26px,3vw,36px);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -57,7 +57,7 @@ nav.main-nav a:hover{color:var(--green);}
 .hero h1{font-size:clamp(30px,3.6vw,48px);line-height:1.15;}
 .hero p.lead{font-size:18px;color:var(--graphite);margin:20px 0 32px;}
 .home-hero{min-height:640px;padding:92px 0;background:linear-gradient(90deg,rgba(255,255,255,.92) 0%,rgba(255,255,255,.76) 42%,rgba(255,255,255,.18) 72%),url("../assets/hero-tritiva.webp") center/cover no-repeat;display:flex;align-items:center;}
-.home-hero .container{width:100%;max-width:none;margin:0;padding-left:clamp(72px,7.8vw,112px);padding-right:clamp(24px,3.7vw,56px);}
+.home-hero .container{width:100%;max-width:var(--maxw);margin:0 auto;padding-left:24px;padding-right:24px;}
 .home-hero .hero-grid{display:block;}
 .home-hero .hero-content{width:60%;max-width:760px;margin-left:0;}
 .home-hero h1{font-size:clamp(34px,3vw,42px);line-height:1;}
@@ -160,33 +160,24 @@ nav.main-nav a:hover{color:var(--green);}
 .product-card a:hover{color:var(--gold);}
 
 /* Products page */
-.products-page-hero{position:relative;overflow:hidden;padding:72px 0 56px;background:linear-gradient(135deg,#ffffff 0%,#f8faf8 48%,#eef4f0 100%);}
-.products-page-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.09),transparent 30%,rgba(11,61,46,.08) 100%),repeating-linear-gradient(90deg,rgba(11,61,46,.045) 0 1px,transparent 1px 132px);pointer-events:none;}
-.products-page-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(11,61,46,.18),transparent);}
+.products-page-hero{position:relative;overflow:hidden;padding:72px 0 56px;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.92) 48%,rgba(238,244,240,.7) 100%),url("../assets/hero-tritiva.webp") center/cover no-repeat;}
+.products-page-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.09),transparent 28%,rgba(11,61,46,.08) 100%),repeating-linear-gradient(90deg,rgba(11,61,46,.045) 0 1px,transparent 1px 132px);pointer-events:none;}
+.products-page-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(11,61,46,.18),transparent);pointer-events:none;}
 .products-page-hero-inner{position:relative;z-index:1;padding-left:54px;}
 .products-page-hero-inner::before{content:"";position:absolute;left:24px;top:4px;bottom:8px;width:4px;border-radius:999px;background:linear-gradient(180deg,var(--gold),var(--green));}
 .products-page-hero h1{font-size:var(--section-title-size);line-height:1.18;max-width:34ch;letter-spacing:0;}
 .products-page-hero p.lead{font-size:18px;line-height:1.78;color:#17221e;margin:24px 0 0;max-width:68ch;}
-.products-page-list{position:relative;overflow:hidden;padding:56px 0 104px;background:linear-gradient(180deg,#eef4f0 0%,#ffffff 32%,#fbfaf6 100%);}
-.products-page-list::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(11,61,46,.06),transparent 36%,rgba(216,155,30,.09) 100%),repeating-linear-gradient(102deg,transparent 0 56px,rgba(216,155,30,.06) 56px 57px,transparent 57px 112px);pointer-events:none;}
+.products-page-list{position:relative;overflow:hidden;padding:64px 0 108px;background:#ffffff;}
 .products-page-list .container{position:relative;z-index:1;}
 .products-page-grid{gap:30px;align-items:stretch;}
-.products-page-card{position:relative;overflow:hidden;min-height:520px;padding:34px;border-color:rgba(11,61,46,.12);background:rgba(255,255,255,.94);box-shadow:0 20px 58px rgba(11,61,46,.09);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;}
-.products-page-card::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,var(--gold),var(--green));}
-.products-page-card::after{content:"";position:absolute;right:-46px;top:-46px;width:136px;height:136px;border:1px solid rgba(216,155,30,.22);border-radius:50%;background:rgba(216,155,30,.035);}
-.products-page-card:hover{transform:translateY(-4px);border-color:rgba(11,61,46,.24);box-shadow:0 28px 72px rgba(11,61,46,.14);}
-.products-page-image{position:relative;z-index:1;display:block;aspect-ratio:3/2;margin-bottom:24px;overflow:hidden;border:1px solid rgba(11,61,46,.12);border-radius:var(--radius);background:linear-gradient(135deg,#f7faf8 0%,#eef4f0 58%,#fbfaf6 100%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.55);}
-.products-page-image::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.09),transparent 34%,rgba(11,61,46,.08) 100%),repeating-linear-gradient(105deg,transparent 0 34px,rgba(11,61,46,.055) 34px 35px,transparent 35px 70px);pointer-events:none;}
-.products-page-image img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .25s ease;}
-.products-page-card:hover .products-page-image img{transform:scale(1.04);}
-.products-page-image span{position:relative;z-index:1;color:#4f5d56;font-size:14px;line-height:1.45;}
-.products-page-card h3{position:relative;z-index:1;font-size:24px;line-height:1.2;margin-bottom:14px;}
-.products-page-card p{position:relative;z-index:1;font-size:16px;line-height:1.62;color:#17221e;max-width:31ch;}
-.products-page-card p:last-child{margin-top:24px!important;}
-.products-page-card a{display:inline-flex;align-items:center;min-height:42px;padding:0 18px;border:1px solid rgba(11,61,46,.18);border-radius:var(--radius);background:var(--white);box-shadow:0 10px 26px rgba(11,61,46,.07);font-family:'Montserrat',Arial,sans-serif;font-size:15px;font-weight:600;color:var(--green);}
-.products-page-card a:hover{border-color:var(--gold);color:var(--green);background:#fbfaf6;}
+.products-page-card{min-height:204px;padding:32px 34px;border-color:rgba(11,61,46,.12);background:#ffffff;box-shadow:0 1px 4px rgba(11,61,46,.08);}
+.products-page-card h3{font-size:24px;line-height:1.22;margin-bottom:12px;}
+.products-page-card p{font-size:18px;line-height:1.48;color:#050b09;max-width:30ch;}
+.products-page-card p:last-child{margin-top:18px!important;}
+.products-page-card a{font-family:'Montserrat',Arial,sans-serif;font-size:15px;font-weight:700;color:var(--green);border-bottom:2px solid rgba(216,155,30,.75);padding-bottom:2px;}
+.products-page-card a:hover{color:var(--gold);}
 
-.products-spec-section{position:relative;overflow:hidden;padding:104px 0;background:linear-gradient(135deg,#f8faf9 0%,#eef2ef 56%,#e6ece8 100%);}
+.products-spec-section{position:relative;overflow:hidden;padding:88px 0;background:linear-gradient(135deg,#f8faf9 0%,#eef2ef 56%,#e6ece8 100%);}
 .products-spec-section::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,61,46,.08),transparent 34%),linear-gradient(180deg,transparent 0%,rgba(216,155,30,.1) 100%),repeating-linear-gradient(90deg,rgba(11,61,46,.045) 0 1px,transparent 1px 128px);pointer-events:none;}
 .products-spec-section::after{content:"";position:absolute;right:0;top:0;bottom:0;width:40%;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.55)),url("../assets/qualidade-tritiva.webp") center/cover no-repeat;opacity:.16;pointer-events:none;}
 .products-spec-section .container{position:relative;z-index:1;}
@@ -196,26 +187,27 @@ nav.main-nav a:hover{color:var(--green);}
 .products-spec-section h2{font-size:var(--section-title-size);line-height:1.18;margin-bottom:16px;}
 .products-spec-section p{font-size:18px;line-height:1.78;color:#17221e;max-width:72ch;}
 
-.products-tech-cta{position:relative;overflow:hidden;padding:104px 0;background:linear-gradient(135deg,#fbfaf6 0%,#ffffff 46%,#f5f6f2 100%);}
-.products-tech-cta::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.11),transparent 26%,rgba(11,61,46,.05) 100%),repeating-linear-gradient(102deg,transparent 0 56px,rgba(216,155,30,.07) 56px 57px,transparent 57px 112px);pointer-events:none;}
-.products-tech-cta::after{content:"";position:absolute;left:50%;top:0;width:min(1180px,calc(100% - 48px));height:1px;background:linear-gradient(90deg,transparent,rgba(216,155,30,.45),transparent);transform:translateX(-50%);}
-.products-tech-cta-inner{position:relative;z-index:1;max-width:920px;margin:0 auto;padding:0 24px!important;text-align:center!important;}
-.products-tech-cta-inner::before{content:"";display:block;width:64px;height:4px;margin:0 auto 28px;background:linear-gradient(90deg,var(--gold),var(--green));border-radius:999px;}
-.products-tech-cta-inner h2{max-width:34ch;margin:0 auto;color:var(--green);font-size:var(--section-title-size);line-height:1.16;text-align:center;}
-.products-tech-cta-inner p{margin:20px auto 0!important;font-size:18px;line-height:1.7;color:#17221e;max-width:58ch;text-align:center;}
-.products-tech-cta-inner .btn-primary{margin-top:34px;box-shadow:0 16px 38px rgba(11,61,46,.14);}
+.products-tech-cta{position:relative;overflow:hidden;padding:104px 0;background:linear-gradient(135deg,#123f32 0%,#0b3d2e 54%,#17382e 100%);text-align:center;}
+.products-tech-cta::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.18),transparent 34%),repeating-linear-gradient(105deg,transparent 0 46px,rgba(255,255,255,.055) 46px 47px,transparent 47px 92px);pointer-events:none;}
+.products-tech-cta::after{content:"";position:absolute;left:50%;top:0;width:min(1180px,calc(100% - 48px));height:1px;background:linear-gradient(90deg,transparent,rgba(216,155,30,.55),transparent);transform:translateX(-50%);}
+.products-tech-cta-inner{position:relative;z-index:1;max-width:980px;margin:0 auto;padding:0 24px!important;text-align:center!important;}
+.products-tech-cta-inner::before{content:"";display:block;width:64px;height:4px;margin:0 auto 28px;background:linear-gradient(90deg,var(--gold),rgba(255,255,255,.82),var(--gold));border-radius:999px;}
+.products-tech-cta-inner h2{max-width:34ch;margin:0 auto;color:var(--white);font-size:var(--section-title-size);line-height:1.16;text-align:center;}
+.products-tech-cta-inner p{margin:20px auto 0!important;font-size:18px;line-height:1.7;color:#dfeae5;max-width:58ch;text-align:center;}
+.products-tech-cta-inner .btn-primary{margin-top:34px;background:var(--white);color:var(--green);box-shadow:0 16px 38px rgba(0,0,0,.18);}
+.products-tech-cta-inner .btn-primary:hover{background:var(--gold);color:var(--green-dark);}
 
 /* Product detail pages */
-.product-detail-hero{position:relative;overflow:hidden;padding:86px 0 108px;background:linear-gradient(125deg,#fbfaf6 0%,#ffffff 38%,#eef4f0 100%);}
+.product-detail-hero{position:relative;overflow:hidden;padding:72px 0 96px;background:linear-gradient(125deg,#fbfaf6 0%,#ffffff 38%,#eef4f0 100%);}
 .product-detail-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.12),transparent 28%,rgba(11,61,46,.08) 100%),linear-gradient(180deg,rgba(255,255,255,.7),transparent 42%),repeating-linear-gradient(90deg,rgba(11,61,46,.04) 0 1px,transparent 1px 132px);pointer-events:none;}
 .product-detail-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(11,61,46,.18),transparent);}
-.product-detail-hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,.95fr) minmax(420px,1fr);gap:76px;align-items:center;}
-.product-detail-copy{position:relative;max-width:720px;padding:48px 48px 52px 54px;border:1px solid rgba(11,61,46,.1);border-radius:var(--radius);background:rgba(255,255,255,.72);box-shadow:0 24px 70px rgba(11,61,46,.08);backdrop-filter:blur(10px);}
-.product-detail-copy::before{content:"";position:absolute;left:0;top:48px;bottom:52px;width:4px;border-radius:0 999px 999px 0;background:linear-gradient(180deg,var(--gold),var(--green));}
-.product-detail-copy::after{content:"";position:absolute;right:-44px;top:-44px;width:132px;height:132px;border:1px solid rgba(216,155,30,.22);border-radius:50%;background:rgba(216,155,30,.035);pointer-events:none;}
+.product-detail-hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(420px,.98fr);gap:68px;align-items:start;}
+.product-detail-copy{position:relative;max-width:720px;padding-left:30px;}
+.product-detail-copy::before{content:"";position:absolute;left:0;top:5px;bottom:8px;width:3px;border-radius:999px;background:linear-gradient(180deg,var(--gold),var(--green));}
+.product-detail-copy::after{content:none;}
 .product-detail-copy h1{font-size:var(--section-title-size);line-height:1.18;letter-spacing:0;}
-.product-detail-copy p.lead{font-size:18px;line-height:1.62;color:#17221e;margin:18px 0 28px;}
-.product-detail-copy p:not(.lead){font-size:17px;line-height:1.76;color:#17221e;max-width:64ch;}
+.product-detail-copy p.lead{font-size:18px;line-height:1.78;color:#17221e;margin:24px 0 0;max-width:63ch;}
+.product-detail-copy p:not(.lead){font-size:18px;line-height:1.78;color:#17221e;max-width:63ch;margin-top:24px;}
 .product-detail-image{position:relative;overflow:hidden;border-style:solid;border-color:rgba(11,61,46,.1);background:linear-gradient(180deg,rgba(8,42,31,.02),rgba(8,42,31,.12)),url("../assets/Amido de trigo.webp") center/cover no-repeat;box-shadow:0 30px 82px rgba(11,61,46,.18);}
 .product-detail-hero-gluten .product-detail-image{background-image:linear-gradient(180deg,rgba(8,42,31,.02),rgba(8,42,31,.12)),url("../assets/Glúten vital de trigo.webp");}
 .product-detail-hero-farinhas .product-detail-image{background-image:linear-gradient(180deg,rgba(8,42,31,.02),rgba(8,42,31,.12)),url("../assets/farinha.webp");}
@@ -233,7 +225,7 @@ nav.main-nav a:hover{color:var(--green);}
 .product-detail-benefits-list li::before{content:counter(benefit);left:28px;top:28px;width:42px;height:42px;border:1px solid rgba(216,155,30,.42);border-radius:50%;background:rgba(216,155,30,.1);transform:none;font-family:'Montserrat',Arial,sans-serif;font-size:15px;font-weight:700;letter-spacing:0;color:var(--gold);display:flex;align-items:center;justify-content:center;}
 .product-detail-benefits-list li::after{content:"";position:absolute;left:28px;right:28px;top:70px;height:1px;background:linear-gradient(90deg,rgba(216,155,30,.86),rgba(255,255,255,.14));}
 .product-detail-benefits-list li:hover{transform:translateY(-4px);background:linear-gradient(180deg,rgba(255,255,255,.18) 0%,rgba(255,255,255,.11) 100%);border-color:rgba(216,155,30,.34);box-shadow:0 26px 68px rgba(0,0,0,.18);}
-.product-detail-note{position:relative;overflow:hidden;padding:112px 0;background:linear-gradient(135deg,#f8faf9 0%,#eef2ef 46%,#fbfaf6 100%);}
+.product-detail-note{position:relative;overflow:hidden;padding:104px 0;background:linear-gradient(135deg,#f8faf9 0%,#eef2ef 46%,#fbfaf6 100%);}
 .product-detail-note::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,61,46,.08),transparent 34%),linear-gradient(180deg,transparent 0%,rgba(216,155,30,.12) 100%),repeating-linear-gradient(90deg,rgba(11,61,46,.045) 0 1px,transparent 1px 128px);pointer-events:none;}
 .product-detail-note::after{content:"";position:absolute;right:0;top:0;bottom:0;width:38%;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.5)),url("../assets/qualidade-tritiva.webp") center/cover no-repeat;opacity:.12;pointer-events:none;}
 .product-detail-note .container{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.45fr);gap:0;align-items:stretch;padding:0 24px;}
@@ -332,6 +324,29 @@ nav.main-nav a:hover{color:var(--green);}
 .about-final-cta-inner .btn-primary{background:var(--white);color:var(--green);box-shadow:0 16px 38px rgba(0,0,0,.18);}
 .about-final-cta-inner .btn-primary:hover{background:var(--gold);color:var(--green-dark);}
 
+/* Applications page */
+.applications-page-hero{position:relative;overflow:hidden;padding:72px 0 56px;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.92) 48%,rgba(238,244,240,.7) 100%),url("../assets/hero-tritiva.webp") center/cover no-repeat;}
+.applications-page-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.09),transparent 28%,rgba(11,61,46,.08) 100%),repeating-linear-gradient(90deg,rgba(11,61,46,.045) 0 1px,transparent 1px 132px);pointer-events:none;}
+.applications-page-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(11,61,46,.18),transparent);pointer-events:none;}
+.applications-page-hero-inner{position:relative;z-index:1;padding-left:54px;}
+.applications-page-hero-inner::before{content:"";position:absolute;left:24px;top:4px;bottom:8px;width:4px;border-radius:999px;background:linear-gradient(180deg,var(--gold),var(--green));}
+.applications-page-hero h1{font-size:var(--section-title-size);line-height:1.18;letter-spacing:0;max-width:34ch;}
+.applications-page-hero p.lead{font-size:18px;line-height:1.78;color:#17221e;margin:24px 0 0;max-width:68ch;}
+.applications-page-list{padding:64px 0 108px;}
+.applications-page-list .grid{gap:30px;}
+.applications-page-card{min-height:204px;padding:32px 34px;border-color:rgba(11,61,46,.12);background:#ffffff;box-shadow:0 1px 4px rgba(11,61,46,.08);}
+.applications-page-card h3{font-size:24px;line-height:1.22;margin-bottom:12px;}
+.applications-page-card p{font-size:18px;line-height:1.48;color:#050b09;max-width:30ch;}
+.applications-page-cta{position:relative;overflow:hidden;padding:104px 0;background:linear-gradient(135deg,#123f32 0%,#0b3d2e 54%,#17382e 100%);}
+.applications-page-cta::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.18),transparent 34%),repeating-linear-gradient(105deg,transparent 0 46px,rgba(255,255,255,.055) 46px 47px,transparent 47px 92px);pointer-events:none;}
+.applications-page-cta::after{content:"";position:absolute;left:50%;top:0;width:min(1180px,calc(100% - 48px));height:1px;background:linear-gradient(90deg,transparent,rgba(216,155,30,.55),transparent);transform:translateX(-50%);}
+.applications-page-cta-inner{position:relative;z-index:1;max-width:980px;margin:0 auto;padding:0 24px!important;text-align:center!important;}
+.applications-page-cta-inner::before{content:"";display:block;width:64px;height:4px;margin:0 auto 28px;background:linear-gradient(90deg,var(--gold),rgba(255,255,255,.82),var(--gold));border-radius:999px;}
+.applications-page-cta-inner h2{max-width:34ch;margin:0 auto;color:var(--white);font-size:var(--section-title-size);line-height:1.16;text-align:center;}
+.applications-page-cta-inner .btn-group{justify-content:center!important;margin-top:34px!important;gap:16px!important;}
+.applications-page-cta-inner .btn-primary{background:var(--white);color:var(--green);box-shadow:0 16px 38px rgba(0,0,0,.18);}
+.applications-page-cta-inner .btn-primary:hover{background:var(--gold);color:var(--green-dark);}
+
 /* Applications showcase */
 .applications-showcase{position:relative;overflow:hidden;background:linear-gradient(115deg,#ffffff 0%,#f8faf8 48%,#eef4f0 100%);}
 .applications-showcase::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.08),transparent 24%,rgba(11,61,46,.08) 100%),repeating-linear-gradient(90deg,rgba(11,61,46,.045) 0 1px,transparent 1px 120px);pointer-events:none;}
@@ -356,7 +371,7 @@ nav.main-nav a:hover{color:var(--green);}
 .quality-showcase{position:relative;min-height:560px;padding:104px 0;background:linear-gradient(90deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.88) 38%,rgba(255,255,255,.42) 68%,rgba(255,255,255,.12) 100%),url("../assets/qualidade-tritiva.webp") center/cover fixed no-repeat;display:flex;align-items:center;overflow:hidden;}
 .quality-showcase::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(216,155,30,.45),transparent);}
 .quality-showcase::after{content:"";position:absolute;left:0;bottom:0;width:48%;height:6px;background:linear-gradient(90deg,var(--green),var(--gold));}
-.quality-showcase .container{position:relative;z-index:1;width:100%;max-width:none;margin:0;padding-left:clamp(72px,7.8vw,112px);padding-right:clamp(24px,3.7vw,56px);}
+.quality-showcase .container{position:relative;z-index:1;width:100%;max-width:var(--maxw);margin:0 auto;padding-left:24px;padding-right:24px;}
 .quality-content{position:relative;max-width:690px;margin-bottom:0;padding-left:34px;}
 .quality-content::before{content:"";position:absolute;left:0;top:2px;bottom:4px;width:3px;border-radius:999px;background:linear-gradient(180deg,var(--gold),var(--green));}
 .quality-content h2{font-size:clamp(30px,3.2vw,42px);line-height:1.08;margin-bottom:18px;}
@@ -366,15 +381,14 @@ nav.main-nav a:hover{color:var(--green);}
 .quality-content .btn-secondary:hover{background:var(--green);color:var(--white);}
 
 /* Quality page */
-.quality-page-hero{position:relative;overflow:hidden;padding:72px 0 56px;background:linear-gradient(115deg,#ffffff 0%,#f8faf8 46%,#eef4f0 100%);}
+.quality-page-hero{position:relative;overflow:hidden;padding:72px 0 56px;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.92) 48%,rgba(238,244,240,.7) 100%),url("../assets/qualidade-tritiva.webp") center/cover no-repeat;}
 .quality-page-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.09),transparent 28%,rgba(11,61,46,.08) 100%),repeating-linear-gradient(90deg,rgba(11,61,46,.045) 0 1px,transparent 1px 132px);pointer-events:none;}
-.quality-page-hero::after{content:"";position:absolute;right:0;top:0;bottom:0;width:38%;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.62)),url("../assets/qualidade-tritiva.webp") center/cover no-repeat;opacity:.14;pointer-events:none;}
+.quality-page-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(11,61,46,.18),transparent);pointer-events:none;}
 .quality-page-hero .container{position:relative;z-index:1;}
-.quality-page-hero-inner{position:relative;max-width:920px;padding:46px 48px 50px 54px;border:1px solid rgba(11,61,46,.1);border-radius:var(--radius);background:rgba(255,255,255,.78);box-shadow:0 22px 64px rgba(11,61,46,.09);backdrop-filter:blur(10px);}
-.quality-page-hero-inner::before{content:"";position:absolute;left:0;top:46px;bottom:50px;width:4px;border-radius:0 999px 999px 0;background:linear-gradient(180deg,var(--gold),var(--green));}
-.quality-page-hero-inner::after{content:"";position:absolute;left:54px;right:48px;bottom:0;height:4px;background:linear-gradient(90deg,var(--gold),rgba(11,61,46,.18),transparent);border-radius:999px;}
+.quality-page-hero-inner{position:relative;z-index:1;max-width:900px;padding-left:54px;}
+.quality-page-hero-inner::before{content:"";position:absolute;left:24px;top:4px;bottom:8px;width:4px;border-radius:999px;background:linear-gradient(180deg,var(--gold),var(--green));}
 .quality-page-hero h1{font-size:var(--section-title-size);line-height:1.18;letter-spacing:0;max-width:34ch;}
-.quality-page-hero p.lead{font-size:18px;line-height:1.78;color:#17221e;margin:24px 0 0;max-width:74ch;}
+.quality-page-hero p.lead{font-size:18px;line-height:1.78;color:#17221e;margin:24px 0 0;max-width:68ch;}
 .quality-page-pillars{position:relative;overflow:hidden;padding:64px 0 108px;background:linear-gradient(135deg,#fbfaf6 0%,#ffffff 42%,#f5f6f2 100%);}
 .quality-page-pillars::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.1),transparent 24%,rgba(11,61,46,.04) 100%),repeating-linear-gradient(102deg,transparent 0 56px,rgba(216,155,30,.07) 56px 57px,transparent 57px 112px);pointer-events:none;}
 .quality-page-pillars::after{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(11,61,46,.18),transparent);}
@@ -462,7 +476,7 @@ table.tech th{font-family:'Montserrat',Arial,sans-serif;color:var(--green);backg
 footer.site-footer{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--green-dark) 0%,var(--green) 54%,#0f4b38 100%);color:#dce6e1;}
 footer.site-footer::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(216,155,30,.14),transparent 30%),repeating-linear-gradient(90deg,rgba(255,255,255,.045) 0 1px,transparent 1px 128px);pointer-events:none;}
 footer.site-footer::after{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:linear-gradient(90deg,var(--gold),var(--green),var(--gold));}
-.footer-top{position:relative;z-index:1;padding:78px 0 54px;}
+.footer-top{position:relative;z-index:1;padding:78px 24px 54px;}
 .footer-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr 1fr;gap:42px;align-items:start;}
 .footer-grid > div{position:relative;}
 .footer-grid > div:not(:first-child){padding-left:28px;border-left:1px solid rgba(255,255,255,.12);}
@@ -473,7 +487,7 @@ footer.site-footer::after{content:"";position:absolute;left:0;right:0;top:0;heig
 .footer-grid span{display:block;color:#b9c9c1;padding:6px 0;font-size:16px;}
 .footer-logo img{height:68px;filter:brightness(0) invert(1);margin-bottom:22px;}
 .footer-desc{font-size:17px;line-height:1.55;color:#dce6e1;max-width:28ch;}
-.footer-legal{position:relative;z-index:1;border-top:1px solid rgba(255,255,255,.14);padding:24px 0 28px;font-size:13px;color:#b9c9c1;display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center;}
+.footer-legal{position:relative;z-index:1;border-top:1px solid rgba(255,255,255,.14);padding:24px 24px 28px;font-size:13px;color:#b9c9c1;display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center;}
 .footer-legal .legal-links{display:flex;gap:20px;flex-wrap:wrap;}
 .footer-legal .legal-links span{cursor:default;color:#dce6e1;}
 
@@ -568,12 +582,12 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .product-card{min-height:auto;padding:32px 28px;}
   .product-card h3{font-size:22px;}
   .product-card p{font-size:16px;max-width:100%;}
-  .products-page-hero{padding:56px 0 42px;background:linear-gradient(180deg,#ffffff 0%,#f4f7f5 100%);}
+  .products-page-hero{padding:56px 0 42px;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.9) 62%,rgba(244,247,245,.72) 100%),url("../assets/hero-tritiva.webp") center/cover no-repeat;}
   .products-page-hero::before{background:linear-gradient(180deg,rgba(216,155,30,.08),rgba(11,61,46,.08));}
   .products-page-hero-inner{padding-left:48px;}
   .products-page-hero-inner::before{left:24px;}
   .products-page-hero p.lead{font-size:16px;line-height:1.68;}
-  .products-page-list{padding:42px 0 64px;background:linear-gradient(180deg,#f4f7f5 0%,#ffffff 42%,#fbfaf6 100%);}
+  .products-page-list{padding:42px 0 72px;background:linear-gradient(180deg,#f4f7f5 0%,#ffffff 42%,#fbfaf6 100%);}
   .products-page-grid{gap:16px;}
   .products-page-card{min-height:auto;padding:28px;}
   .products-page-card h3{font-size:22px;}
@@ -584,15 +598,15 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .products-spec-section .section-head::before{top:34px;bottom:38px;}
   .products-spec-section .section-head::after{left:32px;right:28px;}
   .products-spec-section p{font-size:16px;line-height:1.68;}
-  .products-tech-cta{padding:72px 0;background:linear-gradient(180deg,#fbfaf6 0%,#ffffff 52%,#f5f6f2 100%);}
+  .products-tech-cta{padding:72px 0;background:linear-gradient(135deg,#123f32 0%,#0b3d2e 54%,#17382e 100%);}
   .products-tech-cta-inner p{font-size:16px;line-height:1.68;}
   .products-tech-cta-inner .btn-primary{margin-top:30px;width:100%;max-width:320px;}
   .product-detail-hero{padding:56px 0 72px;background:linear-gradient(180deg,#fbfaf6 0%,#ffffff 48%,#f4f7f5 100%);}
   .product-detail-hero::before{background:linear-gradient(180deg,rgba(216,155,30,.08),rgba(11,61,46,.08));}
   .product-detail-hero-grid{grid-template-columns:1fr;gap:34px;}
-  .product-detail-copy{max-width:100%;padding:34px 28px 38px 32px;}
-  .product-detail-copy::before{top:34px;bottom:38px;}
-  .product-detail-copy p.lead{font-size:16px;line-height:1.58;margin-bottom:22px;}
+  .product-detail-copy{max-width:720px;padding-left:24px;}
+  .product-detail-copy::before{top:5px;bottom:8px;}
+  .product-detail-copy p.lead{font-size:16px;line-height:1.68;margin-bottom:0;}
   .product-detail-copy p:not(.lead){font-size:16px;line-height:1.68;}
   .product-detail-image{min-height:360px;}
   .product-detail-benefits{padding:64px 0;}
@@ -628,6 +642,19 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .applications-showcase::before{background:linear-gradient(180deg,rgba(216,155,30,.08),rgba(11,61,46,.08));}
   .applications-showcase::after{opacity:.55;}
   .applications-showcase .section-head{margin-bottom:32px;}
+  .applications-page-hero{padding:56px 0 42px;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.9) 62%,rgba(244,247,245,.72) 100%),url("../assets/hero-tritiva.webp") center/cover no-repeat;}
+  .applications-page-hero::before{background:linear-gradient(180deg,rgba(216,155,30,.08),rgba(11,61,46,.08));}
+  .applications-page-hero-inner{padding-left:48px;}
+  .applications-page-hero-inner::before{left:24px;}
+  .applications-page-hero p.lead{font-size:16px;line-height:1.68;}
+  .applications-page-list{padding:42px 0 72px;}
+  .applications-page-list .grid{gap:16px;}
+  .applications-page-card{min-height:auto;padding:28px;}
+  .applications-page-card h3{font-size:22px;}
+  .applications-page-card p{font-size:16px;line-height:1.58;max-width:100%;}
+  .applications-page-cta{padding:72px 0;}
+  .applications-page-cta-inner .btn-group{margin-top:30px!important;}
+  .applications-page-cta-inner .btn{width:100%;max-width:320px;}
   .applications-list{gap:14px;}
   .applications-list li{min-height:auto;padding:20px 22px 20px 86px!important;font-size:16px;}
   .applications-showcase .applications-list li::before{left:20px;width:46px;height:26px;background-size:24px 24px;}
@@ -638,12 +665,11 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .quality-content{max-width:680px;padding-left:26px;}
   .quality-content h2{font-size:clamp(28px,7vw,38px);}
   .quality-content p{font-size:16px;line-height:1.68;}
-  .quality-page-hero{padding:56px 0 42px;background:linear-gradient(180deg,#ffffff 0%,#f4f7f5 100%);}
+  .quality-page-hero{padding:56px 0 42px;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.9) 62%,rgba(244,247,245,.72) 100%),url("../assets/qualidade-tritiva.webp") center/cover no-repeat;}
   .quality-page-hero::before{background:linear-gradient(180deg,rgba(216,155,30,.08),rgba(11,61,46,.08));}
-  .quality-page-hero::after{width:100%;opacity:.08;}
-  .quality-page-hero-inner{padding:34px 28px 38px 32px;}
-  .quality-page-hero-inner::before{top:34px;bottom:38px;}
-  .quality-page-hero-inner::after{left:32px;right:28px;}
+  .quality-page-hero::after{width:auto;opacity:1;}
+  .quality-page-hero-inner{padding-left:48px;}
+  .quality-page-hero-inner::before{left:24px;top:4px;bottom:8px;}
   .quality-page-hero p.lead{font-size:16px;line-height:1.68;}
   .quality-page-pillars{padding:42px 0 72px;background:linear-gradient(180deg,#fbfaf6 0%,#ffffff 52%,#f5f6f2 100%);}
   .quality-page-grid{gap:16px;}
@@ -680,9 +706,14 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
 @media (max-width:520px){
   .home-hero{padding:56px 0;background-image:linear-gradient(90deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.82) 64%,rgba(255,255,255,.38) 100%),url("../assets/hero-tritiva.webp");}
   .quality-page-hero{padding:48px 0 36px;}
-  .quality-page-hero-inner{padding:30px 22px 34px 26px;}
-  .quality-page-hero-inner::before{top:30px;bottom:34px;}
-  .quality-page-hero-inner::after{left:26px;right:22px;}
+  .quality-page-hero-inner{padding-left:44px;}
+  .applications-page-hero{padding:48px 0 36px;}
+  .applications-page-hero-inner{padding-left:44px;}
+  .applications-page-list{padding:36px 0 56px;}
+  .applications-page-card{padding:24px 20px;}
+  .applications-page-card h3{font-size:21px;}
+  .applications-page-cta{padding:60px 0;}
+  .applications-page-cta-inner{padding:0 24px!important;}
   .quality-page-pillars{padding:36px 0 56px;}
   .quality-page-card{padding:28px 22px;}
   .quality-page-card h3{font-size:21px;}
@@ -696,7 +727,7 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .contact-page-layout .field-check{padding:16px;}
   .products-page-hero{padding:48px 0 36px;}
   .products-page-hero-inner{padding-left:44px;}
-  .products-page-list{padding:36px 0 52px;}
+  .products-page-list{padding:36px 0 56px;}
   .products-page-card{padding:24px 20px;}
   .products-page-card h3{font-size:21px;}
   .products-spec-section{padding:52px 0;}
@@ -706,8 +737,8 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .products-tech-cta{padding:60px 0;}
   .products-tech-cta-inner{padding:0 24px!important;}
   .product-detail-hero{padding:48px 0 58px;}
-  .product-detail-copy{padding:30px 22px 34px 26px;}
-  .product-detail-copy::before{top:30px;bottom:34px;}
+  .product-detail-copy{padding-left:20px;}
+  .product-detail-copy::before{top:5px;bottom:8px;}
   .product-detail-image span{left:18px;bottom:18px;width:min(300px,calc(100% - 36px));}
   .product-detail-image{min-height:300px;}
   .product-detail-benefits{padding:52px 0;}
@@ -751,6 +782,6 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .about-final-cta{padding:60px 0;}
   .about-final-cta-inner{padding:0 24px!important;}
   .footer-grid{grid-template-columns:1fr;}
-  .footer-top{padding:56px 0 36px;}
+  .footer-top{padding:56px 24px 36px;}
   .footer-legal{align-items:flex-start;flex-direction:column;}
 }
