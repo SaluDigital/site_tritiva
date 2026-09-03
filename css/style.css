@@ -27,7 +27,7 @@ section{padding:72px 0;}
 .eyebrow{color:var(--gold);font-family:'Montserrat',Arial,sans-serif;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:13px;margin-bottom:12px;display:block;}
 
 /* Header */
-header.site-header{position:sticky;top:0;z-index:100;background:var(--white);border-bottom:1px solid transparent;transition:box-shadow .2s, border-color .2s;}
+header.site-header{position:sticky;top:0;z-index:210;background:var(--white);border-bottom:1px solid transparent;transition:box-shadow .2s, border-color .2s;}
 header.site-header.scrolled{box-shadow:0 2px 12px rgba(0,0,0,.08);border-color:var(--gray);}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px var(--gutter);max-width:var(--maxw);margin:0 auto;}
 .logo-link{display:flex;align-items:center;gap:10px;flex-shrink:0;}
@@ -539,7 +539,7 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
 
 @media (max-width:900px){
   nav.main-nav{position:fixed;top:88px;left:0;right:0;background:var(--white);flex-direction:column;align-items:flex-start;padding:16px var(--gutter) var(--gutter);gap:4px;border-bottom:1px solid var(--gray);box-shadow:0 8px 16px rgba(0,0,0,.06);max-height:0;overflow:hidden;transition:max-height .25s ease;}
-  nav.main-nav.open{max-height:400px;}
+  nav.main-nav.open{max-height:calc(100vh - 88px);overflow-y:auto;}
   nav.main-nav a{width:100%;padding:12px 0;border-bottom:1px solid var(--gray);}
   .menu-toggle{display:flex;}
   .header-cta .btn-primary{display:none;}
@@ -790,7 +790,12 @@ input.invalid,select.invalid,textarea.invalid{border-color:#a4232c;}
   .about-leadership-content::before{top:30px;bottom:34px;}
   .about-final-cta{padding:60px 0;}
   .about-final-cta-inner{padding:0 var(--gutter)!important;}
-  .footer-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;text-align:center;}
   .footer-top{padding:56px 24px 36px;}
-  .footer-legal{align-items:flex-start;flex-direction:column;}
+  .footer-logo img{margin-left:auto;margin-right:auto;}
+  .footer-desc{margin-left:auto;margin-right:auto;}
+  .footer-grid h4::after{margin-left:auto;margin-right:auto;}
+  .footer-grid a,.footer-grid span{margin-left:auto;margin-right:auto;}
+  .footer-legal{align-items:center;flex-direction:column;text-align:center;}
+  .footer-legal .legal-links{justify-content:center;}
 }
