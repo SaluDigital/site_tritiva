@@ -1,0 +1,8 @@
+# Versao de PRODUCAO do robots.txt, gerada automaticamente por
+# scripts/set-site-url.js. Nao edite a URL do sitemap abaixo a mao;
+# rode: node scripts/set-site-url.js https://dominiofinal.com.br
+User-agent: *
+Allow: /
+Disallow: /uploads/
+
+Sitemap: __SITE_URL__/sitemap.xml

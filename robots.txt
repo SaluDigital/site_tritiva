@@ -1,0 +1,9 @@
+# AMBIENTE DE DESENVOLVIMENTO / PRE-LANCAMENTO
+# Este site ainda nao foi publicado em producao.
+# Bloqueia TODO o rastreamento para evitar indexacao acidental
+# de conteudo local, de preview ou de staging.
+#
+# Antes do lancamento oficial, substitua este arquivo pelo conteudo
+# de robots.production.txt.template (rode: node scripts/set-site-url.js <URL_FINAL>)
+User-agent: *
+Disallow: /

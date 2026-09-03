@@ -1,0 +1,8 @@
+# Material de referencia interno (guia de conteudo, texto extraido) —
+# fica no historico do git para a equipe, mas nao deve ser publicado
+# no site em producao.
+uploads/
+.thumbnail
+robots.production.txt.template
+scripts/
+.env.example
