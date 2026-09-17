@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function(){
       if(valid){
         var submitButton = form.querySelector('button[type="submit"]');
         if(msg){
-          msg.textContent = 'Enviando sua mensagem para contato@tritiva.com.br...';
+          msg.textContent = 'Mensagem enviada com sucesso!';
           msg.classList.add('show');
           msg.classList.remove('error');
         }
