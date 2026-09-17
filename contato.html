@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYXWYSZM5Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XYXWYSZM5Y');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contato comercial e técnico | Tritiva</title>
@@ -63,7 +72,7 @@
       <h1>Converse com a Tritiva</h1>
       <p class="lead">Apresente sua necessidade, aplicação ou oportunidade. Nossa equipe direcionará o contato para a área responsável.</p>
     </div>
-    <form id="contact-form" novalidate>
+    <form id="contact-form" action="mailto:contato@tritiva.com.br" method="post" enctype="text/plain" novalidate>
       <div class="field">
         <label for="nome">Nome completo *</label>
         <input type="text" id="nome" name="nome" required>
@@ -139,19 +148,7 @@
         <textarea id="mensagem" name="mensagem" required></textarea>
         <span class="error-msg">Campo obrigatório.</span>
       </div>
-      <div class="field">
-        <label for="destino">Destino *</label>
-        <select id="destino" name="destino" required>
-          <option value="">Selecione</option>
-          <option value="comercial@tritiva.com.br">Comercial</option>
-          <option value="qualidade@tritiva.com.br">Qualidade</option>
-          <option value="compras@tritiva.com.br">Compras</option>
-          <option value="financeiro@tritiva.com.br">Financeiro</option>
-          <option value="imprensa@tritiva.com.br">Imprensa</option>
-          <option value="contato@tritiva.com.br">Geral</option>
-        </select>
-        <span class="error-msg">Campo obrigatório.</span>
-      </div>
+      <input type="hidden" id="destino" name="destino" value="contato@tritiva.com.br">
       <div class="field field-check">
         <input type="checkbox" id="consentimento" name="consentimento" required>
         <label for="consentimento">Autorizo o tratamento dos meus dados para contato pela Tritiva, conforme a <a href="politica-de-privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a>. *</label>
