@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /uploads/
-
-Sitemap: __SITE_URL__/sitemap.xml

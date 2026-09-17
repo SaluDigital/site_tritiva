@@ -1,0 +1,31 @@
+# Tritiva
+
+> A Tritiva e uma empresa brasileira de ingredientes derivados do trigo, com foco em amido de trigo e gluten vital para aplicacoes industriais.
+
+Este arquivo orienta agentes de IA sobre as principais paginas publicas do site. Use os links abaixo para entender a empresa, suas solucoes, aplicacoes, qualidade, responsabilidade e canais de contato.
+
+## Paginas principais
+
+- [Pagina inicial](https://tritiva.com.br/): Visao geral da Tritiva e de suas solucoes em ingredientes derivados do trigo.
+- [A Tritiva](https://tritiva.com.br/a-tritiva.html): Informacoes institucionais sobre a empresa, posicionamento e atuacao.
+- [Produtos](https://tritiva.com.br/produtos/index.html): Lista das solucoes e ingredientes apresentados pela Tritiva.
+- [Aplicacoes](https://tritiva.com.br/aplicacoes.html): Contextos industriais e categorias de uso dos ingredientes.
+- [Qualidade](https://tritiva.com.br/qualidade.html): Informacoes sobre padronizacao, especificacoes, rastreabilidade e criterios tecnicos.
+- [Responsabilidade](https://tritiva.com.br/responsabilidade.html): Informacoes sobre responsabilidade corporativa e cadeia de fornecimento.
+- [Contato](https://tritiva.com.br/contato.html): Formulario e canal principal para contato com a equipe.
+
+## Produtos
+
+- [Amido de trigo](https://tritiva.com.br/produtos/amido-de-trigo.html): Ingrediente para aplicacoes que exigem funcionalidade, consistencia e padronizacao.
+- [Gluten vital de trigo](https://tritiva.com.br/produtos/gluten-vital-de-trigo.html): Ingrediente proteico voltado ao desempenho e a padronizacao de formulacoes.
+- [Farinhas de trigo](https://tritiva.com.br/produtos/farinhas-de-trigo.html): Informacoes sobre farinhas de trigo para aplicacoes industriais.
+
+## Politicas
+
+- [Politica de privacidade](https://tritiva.com.br/politica-de-privacidade.html): Regras de privacidade, tratamento de dados e cookies.
+- [Termos de uso](https://tritiva.com.br/termos-de-uso.html): Condicoes de uso do site.
+
+## Arquivos tecnicos
+
+- [Sitemap XML](https://tritiva.com.br/sitemap.xml): Mapa XML das paginas indexaveis.
+- [Robots.txt](https://tritiva.com.br/robots.txt): Regras de rastreamento para bots.
